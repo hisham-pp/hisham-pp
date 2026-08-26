@@ -178,5 +178,15 @@
     "icon": "redux-icon.svg",
     "showText": true,
     "id": "34_rtk_query"
+  },
+  "react_query": {
+    "name": "React Query",
+    "color": "#1e293b",
+    "iconPosition": "left",
+    "icon": "reactquery-icon.svg",
+    "showText": true,
+    "id": "33_react_query",
+    "iconWidth": 16,
+    "iconHeight": 16
   }
 }
