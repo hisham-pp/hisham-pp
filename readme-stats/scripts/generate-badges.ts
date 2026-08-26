@@ -4,7 +4,7 @@ import { generateBadge } from '../src/lib/badgeGenerator';
 
 // Read the tech config
 const configPath = path.join(__dirname, '../src/lib/techConfig.json');
-const techConfig = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+const techConfig: Record<string, any> = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 
 const badgesDir = path.join(__dirname, '../public/badges');
 
