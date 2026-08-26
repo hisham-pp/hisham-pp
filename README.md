@@ -82,13 +82,11 @@ I believe in understanding how systems work under the hood, rather than just mak
 
 ### 🔭 Engineering Interests
 
-- ⚡ **Performance:** System tuning, memory management, and rendering optimization.
-- ☁️ **Cloud Architecture:** Serverless design, distributed computing, and AWS infrastructure.
-- 🧠 **Developer Tools:** Building tools that solve problems differently rather than copying existing paradigms.
-- 📦 **Data Efficiency:** Compression, efficient data structures, and optimal serialization.
-- 🔌 **Distributed Systems:** Event-driven microservices and state synchronization.
-- 💻 **Local-first Software:** Rethinking the traditional client-server model for immediate, offline-ready UX.
-- 🤖 **AI-assisted Development:** Enhancing developer workflows while reducing unnecessary context bloat.
+- 💻 **Development:** Full-Stack Development • Frontend Engineering • Backend Development
+- 🛠️ **Technologies:** React & Next.js • TypeScript • API Design & Integrations
+- ☁️ **Cloud & DevOps:** Cloud & Serverless Architecture • AWS • Infrastructure as Code • DevOps & CI/CD
+- 🏗️ **Architecture:** System Design • Database Design • Scalable & Reliable Systems
+- ⚡ **Engineering Excellence:** Performance Optimization • Developer Experience (DX) • Open Source
 
 ---
 
