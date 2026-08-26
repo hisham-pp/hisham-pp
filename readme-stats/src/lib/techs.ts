@@ -27,4 +27,8 @@ export const techMap: Record<string, string> = {
   gitlab_ci: "25_gitlab_ci.svg",
   github_actions: "26_github_actions.svg",
   vercel: "27_vercel.svg",
+  html5: "28_html5.svg",
+  css3: "29_css3.svg",
+  radix_ui: "30_radix_ui.svg",
+  redux_saga: "31_redux_saga.svg",
 };

@@ -26,7 +26,11 @@ I believe in understanding how systems work under the hood, rather than just mak
 ### 💻 Tech
 
 <p align="center">
-  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=typescript,react,nextjs,tailwindcss,nodejs,nestjs,postgresql,prisma,aws,docker,github_actions,vercel" alt="Tech Stack Marquee" width="850" />
+  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=react,nextjs,typescript,javascript,html5,css3,tailwindcss,mui,chakra,radix_ui,redux,redux_saga,zustand" alt="Frontend Tech Stack Marquee" width="850" />
+  <br/>
+  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=nodejs,nestjs,python,postgresql,mongodb,sqlite,dynamodb,supabase,prisma,typeorm" alt="Backend and Data Tech Stack Marquee" width="850" />
+  <br/>
+  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=aws,terraform,aws_sam,docker,gitlab_ci,github_actions,vercel" alt="DevOps and Cloud Tech Stack Marquee" width="850" />
 </p>
 
 <br/>
