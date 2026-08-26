@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="71" height="20" role="img" aria-label="Angular"><title>Angular</title><g shape-rendering="crispEdges"><rect width="0" height="20" fill="#555"/><rect x="0" width="71" height="20" fill="#dd0031"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><image x="5" y="3" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPkFuZ3VsYXI8L3RpdGxlPjxwYXRoIGQ9Ik0xNi43MTIgMTcuNzExSDcuMjg4bC0xLjIwNCAyLjkxNkwxMiAyNGw1LjkxNi0zLjM3My0xLjIwNC0yLjkxNlpNMTQuNjkyIDBsNy44MzIgMTYuODU1LjgxNC0xMi44NTZMMTQuNjkyIDBaTTkuMzA4IDAgLjY2MiAzLjk5OWwuODE0IDEyLjg1Nkw5LjMwOCAwWm0tLjQwNSAxMy45M2g2LjE5OEwxMiA2LjM5NiA4LjkwMyAxMy45M1oiLz48L3N2Zz4="/><text x="445" y="140" textLength="430" transform="scale(.1)">Angular</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="20" role="img" aria-label="Angular">
+  <title>Angular</title>
+  
+  <rect width="80" height="20" fill="#dd0031" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 2)"><svg x="0" y="0" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="#ffffff" d="m14.24 2l6.51 14.04l.7-10.67zm.31 11.61l-2.51-6.28l-2.59 6.28zm-12-8.24l.7 10.67L9.76 2zm5.49 11.38l-.94 2.43L12.04 22l4.86-2.82l-.94-2.43z" />
+</svg></g>
+    <text x="500" y="140" transform="scale(.1)" textLength="480" font-weight="bold">Angular</text>
+  </g>
+</svg>

@@ -13,11 +13,11 @@ export interface BadgeConfig {
 }
 
 export function generateBadge(config: BadgeConfig): string {
-  const { 
-    name, 
-    color, 
+  const {
+    name,
+    color,
     textColor = '#fff',
-    icon, 
+    icon,
     iconPosition = 'left',
     showText = true,
     iconWidth = 14,
@@ -26,9 +26,24 @@ export function generateBadge(config: BadgeConfig): string {
     defs = ''
   } = config;
 
-  const avgCharWidth = 7.5; // Bumped slightly for better default spacing
-  const textWidth = showText 
-    ? (customTextWidth !== undefined ? customTextWidth : Math.round(name.length * avgCharWidth)) 
+  // Smarter text width calculation instead of flat avgCharWidth
+  let calculatedTextWidth = 0;
+  for (const char of name) {
+    if (/[A-Z]/.test(char)) {
+      calculatedTextWidth += 8.5; // Uppercase letters are wider
+    } else if (/[a-z]/.test(char)) {
+      calculatedTextWidth += 6.5; // Lowercase letters are standard
+    } else if (/[0-9]/.test(char)) {
+      calculatedTextWidth += 7.0; // Numbers are slightly wide
+    } else if (/[iIl1\.,]/.test(char)) {
+      calculatedTextWidth += 3.0; // Thin characters
+    } else {
+      calculatedTextWidth += 7.0; // Fallback
+    }
+  }
+
+  const textWidth = showText
+    ? (customTextWidth !== undefined ? customTextWidth : Math.round(calculatedTextWidth))
     : 0;
   const textLengthScaled = textWidth * 10;
 
@@ -48,7 +63,7 @@ export function generateBadge(config: BadgeConfig): string {
     const trimmedIcon = icon.trim();
     if (trimmedIcon.startsWith('<svg')) {
       renderedIcon = trimmedIcon.replace(
-        /^<svg[^>]*>/i, 
+        /^<svg[^>]*>/i,
         (match) => {
           let newTag = match.replace(/\s+(x|y|width|height)="[^"]*"/gi, '');
           if (config.iconColor) {
@@ -68,7 +83,7 @@ export function generateBadge(config: BadgeConfig): string {
       const iconX = paddingLeft;
       const iconY = (20 - iconHeight) / 2;
       iconMarkup = `<g transform="translate(${iconX}, ${iconY})">${renderedIcon}</g>`;
-      
+
       const textStartX = paddingLeft + actualIconWidth + gap;
       const textCenterX = textStartX + (textWidth / 2);
       textX = textCenterX * 10;
@@ -76,7 +91,7 @@ export function generateBadge(config: BadgeConfig): string {
       const textStartX = paddingLeft;
       const textCenterX = textStartX + (textWidth / 2);
       textX = textCenterX * 10;
-      
+
       const iconX = textStartX + textWidth + gap;
       const iconY = (20 - iconHeight) / 2;
       iconMarkup = `<g transform="translate(${iconX}, ${iconY})">${renderedIcon}</g>`;
@@ -86,7 +101,7 @@ export function generateBadge(config: BadgeConfig): string {
     textX = textCenterX * 10;
   }
 
-  const textMarkup = showText 
+  const textMarkup = showText
     ? `<text x="${textX}" y="140" transform="scale(.1)" textLength="${textLengthScaled}" font-weight="bold">${name}</text>`
     : '';
 
