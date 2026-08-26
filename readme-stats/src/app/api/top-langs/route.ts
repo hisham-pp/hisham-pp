@@ -21,6 +21,6 @@ export async function GET(request: NextRequest) {
       },
     });
   } catch (error: any) {
-    return new Response(\`Error: \${error.message}\`, { status: 500 });
+    return new Response(`Error: ${error.message}`, { status: 500 });
   }
 }

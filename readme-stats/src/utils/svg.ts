@@ -58,24 +58,24 @@ export function generateStatsSvg(stats: any) {
 
 export function generateTopLangsSvg(langs: any[]) {
   const bars = langs.map((lang, index) => {
-    return \`
-      <rect x="\${index * 20}%" y="0" width="\${lang.percent}%" height="8" fill="\${lang.color}" />
-    \`;
+    return `
+      <rect x="${index * 20}%" y="0" width="${lang.percent}%" height="8" fill="${lang.color}" />
+    `;
   }).join('');
   
   const legend = langs.map((lang, index) => {
     const x = (index % 2 === 0) ? 25 : 180;
     const y = 80 + Math.floor(index / 2) * 25;
-    return \`
-      <g transform="translate(\${x}, \${y})">
-        <circle cx="5" cy="5" r="5" fill="\${lang.color}" />
-        <text x="15" y="9" class="stat" font-weight="600">\${lang.name}</text>
-        <text x="100" y="9" class="stat">\${lang.percent}%</text>
+    return `
+      <g transform="translate(${x}, ${y})">
+        <circle cx="5" cy="5" r="5" fill="${lang.color}" />
+        <text x="15" y="9" class="stat" font-weight="600">${lang.name}</text>
+        <text x="100" y="9" class="stat">${lang.percent}%</text>
       </g>
-    \`;
+    `;
   }).join('');
 
-  return \`
+  return `
     <svg width="300" height="165" viewBox="0 0 300 165" fill="none" xmlns="http://www.w3.org/2000/svg">
       <style>
         .header { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58A6FF; }
@@ -86,11 +86,11 @@ export function generateTopLangsSvg(langs: any[]) {
       
       <!-- Progress Bar -->
       <svg x="25" y="45" width="250" height="8" rx="4">
-        \${bars}
+        ${bars}
       </svg>
       
       <!-- Legend -->
-      \${legend}
+      ${legend}
     </svg>
-  \`;
+  `;
 }
