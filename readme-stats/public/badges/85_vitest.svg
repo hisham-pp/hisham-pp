@@ -56,6 +56,6 @@
         </filter>
     </defs>
 </svg></g>
-    <text x="300" y="140" transform="scale(.1)" textLength="480" font-weight="bold">VITEST</text>
+    <text x="300" y="140" transform="scale(.1)" font-weight="bold">VITEST</text>
   </g>
 </svg>

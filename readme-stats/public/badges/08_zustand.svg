@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="78" height="20" role="img" aria-label="Zustand">
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="20" role="img" aria-label="Zustand">
   <title>Zustand</title>
   
-  <rect width="78" height="20" fill="#443e38" rx="3" />
+  <rect width="84" height="20" fill="#443e38" rx="3" />
   <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
     <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
 	<path d="M0 0h128v128H0z" fill="none" />
@@ -241,6 +241,6 @@
 	<path fill="#685b4f" d="M44.184 115.12q.102.738-.401 1.327q-.476.556-.605.84q-.36.797-.695 1.605q-.16.386-.375.473q-.286.121-.676-.04a.26.26 0 0 1-.143-.336q.857-2.12 2.262-3.91q.139-.173.278-.225q.305-.103.355.266" />
 	<path fill="#312f2a" d="M89 115.052q.388.03.757.143a.26.182 8.3 0 1 .177.166q.027.155-.217.146q-.693-.023-1.386.014q-.407-.107-.398.43a.171.174 84.1 0 1-.143.172q-.572.11-1.048.43q-.356.236-.8.466q-.423.22-.747.578q-.157.174-.3.23q-.44.172-.331-.289a.353.42 73.4 0 1 .139-.21q1.412-1.141 3.087-1.84q.11-.047.204-.154q.383-.45 1.006-.282m-57.072 2.54q1.76.942 3.71 1.391q.723.166-.015.418q-.653.222-1.215-.049q-.86-.412-.876-.417q-1.093-.367-1.739-.79q-.337-.22-.077-.521a.174.16 34.1 0 1 .212-.032" />
 </svg></g>
-    <text x="480" y="140" transform="scale(.1)" textLength="480" font-weight="bold">Zustand</text>
+    <text x="510" y="140" transform="scale(.1)" font-weight="bold">Zustand</text>
   </g>
 </svg>

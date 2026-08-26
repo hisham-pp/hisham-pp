@@ -29,14 +29,14 @@ export function generateBadge(config: BadgeConfig): string {
   // Smarter text width calculation instead of flat avgCharWidth
   let calculatedTextWidth = 0;
   for (const char of name) {
-    if (/[A-Z]/.test(char)) {
+    if (/[iIl1\.,]/.test(char)) {
+      calculatedTextWidth += 3.0; // Thin characters
+    } else if (/[A-Z]/.test(char)) {
       calculatedTextWidth += 8.5; // Uppercase letters are wider
     } else if (/[a-z]/.test(char)) {
-      calculatedTextWidth += 6.5; // Lowercase letters are standard
+      calculatedTextWidth += 7.5; // Lowercase letters in bold Verdana are wider
     } else if (/[0-9]/.test(char)) {
       calculatedTextWidth += 7.0; // Numbers are slightly wide
-    } else if (/[iIl1\.,]/.test(char)) {
-      calculatedTextWidth += 3.0; // Thin characters
     } else {
       calculatedTextWidth += 7.0; // Fallback
     }
@@ -45,8 +45,6 @@ export function generateBadge(config: BadgeConfig): string {
   const textWidth = showText
     ? (customTextWidth !== undefined ? customTextWidth : Math.round(calculatedTextWidth))
     : 0;
-  const textLengthScaled = textWidth * 10;
-
   const hasIcon = !!icon;
   const actualIconWidth = hasIcon ? iconWidth : 0;
   const paddingLeft = 6;
@@ -102,7 +100,7 @@ export function generateBadge(config: BadgeConfig): string {
   }
 
   const textMarkup = showText
-    ? `<text x="${textX}" y="140" transform="scale(.1)" textLength="${textLengthScaled}" font-weight="bold">${name}</text>`
+    ? `<text x="${textX}" y="140" transform="scale(.1)" font-weight="bold">${name}</text>`
     : '';
 
   const defsMarkup = defs ? `<defs>${defs}</defs>` : '';

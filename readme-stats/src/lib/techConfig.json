@@ -372,5 +372,37 @@
     "icon": "webhooks-icon.svg",
     "showText": true,
     "id": "47_webhooks"
+  },
+  "serverless": {
+    "name": "Serverless",
+    "color": "#fd5750",
+    "iconPosition": "left",
+    "icon": "serverless-icon.svg",
+    "showText": true,
+    "id": "48_serverless"
+  },
+  "nodejs": {
+    "name": "Node.js",
+    "color": "#339933",
+    "iconPosition": "left",
+    "icon": "node-js-icon.svg",
+    "showText": true,
+    "id": "12_node_js"
+  },
+  "nestjs": {
+    "name": "NestJS",
+    "color": "#E0234E",
+    "iconPosition": "left",
+    "icon": "nestjs-icon.svg",
+    "showText": true,
+    "id": "13_nestjs"
+  },
+  "python": {
+    "name": "Python",
+    "color": "#3776AB",
+    "iconPosition": "left",
+    "icon": "python-icon.svg",
+    "showText": true,
+    "id": "11_python"
   }
 }
