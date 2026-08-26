@@ -236,5 +236,13 @@
     "icon": "zod-icon.svg",
     "showText": true,
     "id": "57_zod"
+  },
+  "yup": {
+    "name": "Yup",
+    "color": "#10B981",
+    "iconPosition": "left",
+    "icon": "yup-icon.svg",
+    "showText": true,
+    "id": "58_yup"
   }
 }
