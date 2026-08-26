@@ -237,6 +237,14 @@
     "showText": true,
     "id": "57_zod"
   },
+  "dayjs": {
+    "name": "Day.js",
+    "color": "#FF5F45",
+    "iconPosition": "left",
+    "icon": "dayjs-icon.svg",
+    "showText": true,
+    "id": "89_dayjs"
+  },
   "yup": {
     "name": "Yup",
     "color": "#10B981",
@@ -244,5 +252,125 @@
     "icon": "yup-icon.svg",
     "showText": true,
     "id": "58_yup"
+  },
+  "date_fns": {
+    "name": "date-fns",
+    "color": "#770C56",
+    "iconPosition": "left",
+    "icon": "datefns-icon.svg",
+    "showText": true,
+    "id": "90_date_fns"
+  },
+  "i18next": {
+    "name": "i18next",
+    "color": "#7986cb",
+    "iconPosition": "left",
+    "icon": "i18n-icon.svg",
+    "showText": true,
+    "id": "91_i18next"
+  },
+  "jspdf": {
+    "name": "jsPDF",
+    "color": "#FF0000",
+    "iconPosition": "left",
+    "icon": "jspdf-icon.svg",
+    "showText": true,
+    "id": "92_jspdf"
+  },
+  "react_quill": {
+    "name": "React Quill",
+    "color": "#333333",
+    "iconPosition": "left",
+    "icon": "react-quill-icon.svg",
+    "showText": true,
+    "id": "93_react_quill"
+  },
+  "react_toastify": {
+    "name": "React Toastify",
+    "color": "#121212",
+    "iconPosition": "left",
+    "icon": "react-toastify-icon.svg",
+    "showText": true,
+    "id": "94_react_toastify"
+  },
+  "stylis_plugin_rtl": {
+    "name": "Stylis Plugin RTL",
+    "color": "#333333",
+    "iconPosition": "left",
+    "icon": "stylis-rtl-icon.svg",
+    "showText": true,
+    "id": "95_stylis_plugin_rtl"
+  },
+  "react_dropzone": {
+    "name": "React Dropzone",
+    "color": "#0055ff",
+    "iconPosition": "left",
+    "icon": "react-dropzone-icon.svg",
+    "showText": true,
+    "id": "96_react_dropzone"
+  },
+  "monaco_editor": {
+    "name": "Monaco Editor",
+    "color": "#1E1E1E",
+    "iconPosition": "left",
+    "icon": "monaco-editor-icon.svg",
+    "showText": true,
+    "id": "97_monaco_editor"
+  },
+  "react_easy_crop": {
+    "name": "React Easy Crop",
+    "color": "#222222",
+    "iconPosition": "left",
+    "icon": "react-easy-crop-icon.svg",
+    "showText": true,
+    "id": "98_react_easy_crop"
+  },
+  "google_libphonenumber": {
+    "name": "google-libphonenumber",
+    "color": "#4285F4",
+    "iconPosition": "left",
+    "icon": "google-libphonenumber-icon.svg",
+    "showText": true,
+    "id": "99_google_libphonenumber"
+  },
+  "dnd_kit": {
+    "name": "dnd-kit",
+    "color": "#333333",
+    "iconPosition": "left",
+    "icon": "dnd-kit-icon.svg",
+    "showText": true,
+    "id": "100_dnd_kit"
+  },
+  "emotion_react": {
+    "name": "Emotion React",
+    "color": "#C43BAD",
+    "iconPosition": "left",
+    "icon": "emotion-react-icon.svg",
+    "showText": true,
+    "id": "101_emotion_react"
+  },
+  "rest_api": {
+    "name": "REST API",
+    "color": "#0073e6",
+    "iconPosition": "left",
+    "icon": "rest-api-icon.svg",
+    "showText": true,
+    "id": "45_rest_api"
+  },
+  "api_integration": {
+    "name": "API Integration",
+    "color": "#00695c",
+    "iconPosition": "left",
+    "icon": "api-integration-icon.svg",
+    "showText": true,
+    "id": "46_api_integration"
+  },
+  "webhooks": {
+    "name": "Webhooks",
+    "color": "#FF5722",
+    "iconPosition": "left",
+    "icon": "webhooks-icon.svg",
+    "showText": true,
+    "id": "47_webhooks"
   }
 }
