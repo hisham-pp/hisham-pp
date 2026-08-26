@@ -196,5 +196,13 @@
     "icon": "react-icon.svg",
     "showText": true,
     "id": "35_react_select"
+  },
+  "react_router": {
+    "name": "React Router",
+    "color": "#CA4245",
+    "iconPosition": "left",
+    "icon": "reactrouter-icon.svg",
+    "showText": true,
+    "id": "118_react_router"
   }
 }
