@@ -220,5 +220,13 @@
     "icon": "apexcharts-icon.svg",
     "showText": true,
     "id": "37_apexcharts"
+  },
+  "react_datepicker": {
+    "name": "React DatePicker",
+    "color": "#007ec6",
+    "iconPosition": "left",
+    "icon": "react-icon.svg",
+    "showText": true,
+    "id": "36_react_datepicker"
   }
 }
