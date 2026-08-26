@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99" height="20" role="img" aria-label="Terraform">
+  <title>Terraform</title>
+  
+  <rect width="99" height="20" fill="#844FBA" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Terraform</title><path d="M1.44 0v7.575l6.561 3.79V3.787zm21.12 4.227l-6.561 3.791v7.574l6.56-3.787zM8.72 4.23v7.575l6.561 3.787V8.018zm0 8.405v7.575L15.28 24v-7.578z"/></svg></g>
+    <text x="585" y="140" transform="scale(.1)" font-weight="bold">Terraform</text>
+  </g>
+</svg>
