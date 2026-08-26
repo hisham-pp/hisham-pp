@@ -965,5 +965,909 @@
     "icon": "powershell-icon.svg",
     "showText": true,
     "id": "138_powershell"
+  },
+  "markdown": {
+    "name": "Markdown",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "markdown-icon.svg",
+    "showText": true,
+    "id": "139_markdown"
+  },
+  "java": {
+    "name": "Java",
+    "color": "#ED8B00",
+    "iconPosition": "left",
+    "icon": "java-icon.svg",
+    "showText": true,
+    "id": "140_java"
+  },
+  "c": {
+    "name": "C",
+    "color": "#A8B9CC",
+    "iconPosition": "left",
+    "icon": "c-icon.svg",
+    "showText": true,
+    "id": "141_c"
+  },
+  "cpp": {
+    "name": "C++",
+    "color": "#00599C",
+    "iconPosition": "left",
+    "icon": "cpp-icon.svg",
+    "showText": true,
+    "id": "142_cpp"
+  },
+  "csharp": {
+    "name": "C#",
+    "color": "#239120",
+    "iconPosition": "left",
+    "icon": "csharp-icon.svg",
+    "showText": true,
+    "id": "143_csharp"
+  },
+  "fsharp": {
+    "name": "F#",
+    "color": "#378BBA",
+    "iconPosition": "left",
+    "icon": "fsharp-icon.svg",
+    "showText": true,
+    "id": "144_fsharp"
+  },
+  "rust": {
+    "name": "Rust",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "rust-icon.svg",
+    "showText": true,
+    "id": "145_rust"
+  },
+  "go": {
+    "name": "Go",
+    "color": "#00ADD8",
+    "iconPosition": "left",
+    "icon": "go-icon.svg",
+    "showText": true,
+    "id": "146_go"
+  },
+  "kotlin": {
+    "name": "Kotlin",
+    "color": "#7F52FF",
+    "iconPosition": "left",
+    "icon": "kotlin-icon.svg",
+    "showText": true,
+    "id": "147_kotlin"
+  },
+  "swift": {
+    "name": "Swift",
+    "color": "#F05138",
+    "iconPosition": "left",
+    "icon": "swift-icon.svg",
+    "showText": true,
+    "id": "148_swift"
+  },
+  "dart": {
+    "name": "Dart",
+    "color": "#0175C2",
+    "iconPosition": "left",
+    "icon": "dart-icon.svg",
+    "showText": true,
+    "id": "149_dart"
+  },
+  "ruby": {
+    "name": "Ruby",
+    "color": "#CC342D",
+    "iconPosition": "left",
+    "icon": "ruby-icon.svg",
+    "showText": true,
+    "id": "150_ruby"
+  },
+  "php": {
+    "name": "PHP",
+    "color": "#777BB4",
+    "iconPosition": "left",
+    "icon": "php-icon.svg",
+    "showText": true,
+    "id": "151_php"
+  },
+  "scala": {
+    "name": "Scala",
+    "color": "#DC322F",
+    "iconPosition": "left",
+    "icon": "scala-icon.svg",
+    "showText": true,
+    "id": "152_scala"
+  },
+  "r_lang": {
+    "name": "R",
+    "color": "#276DC3",
+    "iconPosition": "left",
+    "icon": "r-lang-icon.svg",
+    "showText": true,
+    "id": "153_r_lang"
+  },
+  "lua": {
+    "name": "Lua",
+    "color": "#2C2D72",
+    "iconPosition": "left",
+    "icon": "lua-icon.svg",
+    "showText": true,
+    "id": "154_lua"
+  },
+  "elixir": {
+    "name": "Elixir",
+    "color": "#4B275F",
+    "iconPosition": "left",
+    "icon": "elixir-icon.svg",
+    "showText": true,
+    "id": "155_elixir"
+  },
+  "haskell": {
+    "name": "Haskell",
+    "color": "#5D4F85",
+    "iconPosition": "left",
+    "icon": "haskell-icon.svg",
+    "showText": true,
+    "id": "156_haskell"
+  },
+  "perl": {
+    "name": "Perl",
+    "color": "#39457E",
+    "iconPosition": "left",
+    "icon": "perl-icon.svg",
+    "showText": true,
+    "id": "157_perl"
+  },
+  "julia": {
+    "name": "Julia",
+    "color": "#9558B2",
+    "iconPosition": "left",
+    "icon": "julia-icon.svg",
+    "showText": true,
+    "id": "158_julia"
+  },
+  "groovy": {
+    "name": "Groovy",
+    "color": "#4298B8",
+    "iconPosition": "left",
+    "icon": "groovy-icon.svg",
+    "showText": true,
+    "id": "159_groovy"
+  },
+  "flutter": {
+    "name": "Flutter",
+    "color": "#02569B",
+    "iconPosition": "left",
+    "icon": "flutter-icon.svg",
+    "showText": true,
+    "id": "160_flutter"
+  },
+  "expo": {
+    "name": "Expo",
+    "color": "#000020",
+    "iconPosition": "left",
+    "icon": "expo-icon.svg",
+    "showText": true,
+    "id": "161_expo"
+  },
+  "android": {
+    "name": "Android",
+    "color": "#3DDC84",
+    "iconPosition": "left",
+    "icon": "android-icon.svg",
+    "showText": true,
+    "id": "162_android"
+  },
+  "ios": {
+    "name": "iOS",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "ios-icon.svg",
+    "showText": true,
+    "id": "163_ios"
+  },
+  "capacitor": {
+    "name": "Capacitor",
+    "color": "#119EFF",
+    "iconPosition": "left",
+    "icon": "capacitor-icon.svg",
+    "showText": true,
+    "id": "164_capacitor"
+  },
+  "vuejs": {
+    "name": "Vue.js",
+    "color": "#4FC08D",
+    "iconPosition": "left",
+    "icon": "vuejs-icon.svg",
+    "showText": true,
+    "id": "165_vuejs"
+  },
+  "svelte": {
+    "name": "Svelte",
+    "color": "#FF3E00",
+    "iconPosition": "left",
+    "icon": "svelte-icon.svg",
+    "showText": true,
+    "id": "166_svelte"
+  },
+  "astro": {
+    "name": "Astro",
+    "color": "#FF5D01",
+    "iconPosition": "left",
+    "icon": "astro-icon.svg",
+    "showText": true,
+    "id": "167_astro"
+  },
+  "remix": {
+    "name": "Remix",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "remix-icon.svg",
+    "showText": true,
+    "id": "168_remix"
+  },
+  "nuxtjs": {
+    "name": "Nuxt.js",
+    "color": "#00DC82",
+    "iconPosition": "left",
+    "icon": "nuxtjs-icon.svg",
+    "showText": true,
+    "id": "169_nuxtjs"
+  },
+  "gatsby": {
+    "name": "Gatsby",
+    "color": "#663399",
+    "iconPosition": "left",
+    "icon": "gatsby-icon.svg",
+    "showText": true,
+    "id": "170_gatsby"
+  },
+  "solid": {
+    "name": "SolidJS",
+    "color": "#2C4F7C",
+    "iconPosition": "left",
+    "icon": "solid-icon.svg",
+    "showText": true,
+    "id": "171_solid"
+  },
+  "three_js": {
+    "name": "Three.js",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "three-js-icon.svg",
+    "showText": true,
+    "id": "172_three_js"
+  },
+  "wasm": {
+    "name": "WebAssembly",
+    "color": "#654FF0",
+    "iconPosition": "left",
+    "icon": "wasm-icon.svg",
+    "showText": true,
+    "id": "173_wasm"
+  },
+  "fastapi": {
+    "name": "FastAPI",
+    "color": "#009688",
+    "iconPosition": "left",
+    "icon": "fastapi-icon.svg",
+    "showText": true,
+    "id": "174_fastapi"
+  },
+  "spring_boot": {
+    "name": "Spring Boot",
+    "color": "#6DB33F",
+    "iconPosition": "left",
+    "icon": "spring-boot-icon.svg",
+    "showText": true,
+    "id": "175_spring_boot"
+  },
+  "laravel": {
+    "name": "Laravel",
+    "color": "#FF2D20",
+    "iconPosition": "left",
+    "icon": "laravel-icon.svg",
+    "showText": true,
+    "id": "176_laravel"
+  },
+  "rails": {
+    "name": "Ruby on Rails",
+    "color": "#D30001",
+    "iconPosition": "left",
+    "icon": "rails-icon.svg",
+    "showText": true,
+    "id": "177_rails"
+  },
+  "phoenix": {
+    "name": "Phoenix",
+    "color": "#FD4F00",
+    "iconPosition": "left",
+    "icon": "phoenix-icon.svg",
+    "showText": true,
+    "id": "178_phoenix"
+  },
+  "hono": {
+    "name": "Hono",
+    "color": "#E36002",
+    "iconPosition": "left",
+    "icon": "hono-icon.svg",
+    "showText": true,
+    "id": "179_hono"
+  },
+  "fastify": {
+    "name": "Fastify",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "fastify-icon.svg",
+    "showText": true,
+    "id": "180_fastify"
+  },
+  "graphql": {
+    "name": "GraphQL",
+    "color": "#E10098",
+    "iconPosition": "left",
+    "icon": "graphql-icon.svg",
+    "showText": true,
+    "id": "181_graphql"
+  },
+  "trpc": {
+    "name": "tRPC",
+    "color": "#2596BE",
+    "iconPosition": "left",
+    "icon": "trpc-icon.svg",
+    "showText": true,
+    "id": "182_trpc"
+  },
+  "azure": {
+    "name": "Azure",
+    "color": "#0089D6",
+    "iconPosition": "left",
+    "icon": "azure-icon.svg",
+    "showText": true,
+    "id": "183_azure"
+  },
+  "gcp": {
+    "name": "Google Cloud",
+    "color": "#4285F4",
+    "iconPosition": "left",
+    "icon": "gcp-icon.svg",
+    "showText": true,
+    "id": "184_gcp"
+  },
+  "digitalocean": {
+    "name": "DigitalOcean",
+    "color": "#0080FF",
+    "iconPosition": "left",
+    "icon": "digitalocean-icon.svg",
+    "showText": true,
+    "id": "185_digitalocean"
+  },
+  "heroku": {
+    "name": "Heroku",
+    "color": "#430098",
+    "iconPosition": "left",
+    "icon": "heroku-icon.svg",
+    "showText": true,
+    "id": "186_heroku"
+  },
+  "netlify": {
+    "name": "Netlify",
+    "color": "#00C7B7",
+    "iconPosition": "left",
+    "icon": "netlify-icon.svg",
+    "showText": true,
+    "id": "187_netlify"
+  },
+  "cloudflare": {
+    "name": "Cloudflare",
+    "color": "#F48120",
+    "iconPosition": "left",
+    "icon": "cloudflare-icon.svg",
+    "showText": true,
+    "id": "188_cloudflare"
+  },
+  "railway": {
+    "name": "Railway",
+    "color": "#0B0D0E",
+    "iconPosition": "left",
+    "icon": "railway-icon.svg",
+    "showText": true,
+    "id": "189_railway"
+  },
+  "kubernetes": {
+    "name": "Kubernetes",
+    "color": "#326CE5",
+    "iconPosition": "left",
+    "icon": "kubernetes-icon.svg",
+    "showText": true,
+    "id": "190_kubernetes"
+  },
+  "jenkins": {
+    "name": "Jenkins",
+    "color": "#D24939",
+    "iconPosition": "left",
+    "icon": "jenkins-icon.svg",
+    "showText": true,
+    "id": "191_jenkins"
+  },
+  "circle_ci": {
+    "name": "CircleCI",
+    "color": "#343434",
+    "iconPosition": "left",
+    "icon": "circle-ci-icon.svg",
+    "showText": true,
+    "id": "192_circle_ci"
+  },
+  "ansible": {
+    "name": "Ansible",
+    "color": "#EE0000",
+    "iconPosition": "left",
+    "icon": "ansible-icon.svg",
+    "showText": true,
+    "id": "193_ansible"
+  },
+  "nginx": {
+    "name": "nginx",
+    "color": "#009639",
+    "iconPosition": "left",
+    "icon": "nginx-icon.svg",
+    "showText": true,
+    "id": "194_nginx"
+  },
+  "redis": {
+    "name": "Redis",
+    "color": "#DC382D",
+    "iconPosition": "left",
+    "icon": "redis-icon.svg",
+    "showText": true,
+    "id": "195_redis"
+  },
+  "mysql": {
+    "name": "MySQL",
+    "color": "#4479A1",
+    "iconPosition": "left",
+    "icon": "mysql-icon.svg",
+    "showText": true,
+    "id": "196_mysql"
+  },
+  "mariadb": {
+    "name": "MariaDB",
+    "color": "#003545",
+    "iconPosition": "left",
+    "icon": "mariadb-icon.svg",
+    "showText": true,
+    "id": "197_mariadb"
+  },
+  "firebase": {
+    "name": "Firebase",
+    "color": "#FFCA28",
+    "iconPosition": "left",
+    "icon": "firebase-icon.svg",
+    "showText": true,
+    "id": "198_firebase"
+  },
+  "elasticsearch": {
+    "name": "Elasticsearch",
+    "color": "#005571",
+    "iconPosition": "left",
+    "icon": "elasticsearch-icon.svg",
+    "showText": true,
+    "id": "199_elasticsearch"
+  },
+  "neo4j": {
+    "name": "Neo4j",
+    "color": "#008CC1",
+    "iconPosition": "left",
+    "icon": "neo4j-icon.svg",
+    "showText": true,
+    "id": "200_neo4j"
+  },
+  "cassandra": {
+    "name": "Cassandra",
+    "color": "#1287B1",
+    "iconPosition": "left",
+    "icon": "cassandra-icon.svg",
+    "showText": true,
+    "id": "201_cassandra"
+  },
+  "influxdb": {
+    "name": "InfluxDB",
+    "color": "#22ADF6",
+    "iconPosition": "left",
+    "icon": "influxdb-icon.svg",
+    "showText": true,
+    "id": "202_influxdb"
+  },
+  "mssql": {
+    "name": "MS SQL Server",
+    "color": "#CC2927",
+    "iconPosition": "left",
+    "icon": "mssql-icon.svg",
+    "showText": true,
+    "id": "203_mssql"
+  },
+  "s3": {
+    "name": "Amazon S3",
+    "color": "#569A31",
+    "iconPosition": "left",
+    "icon": "s3-icon.svg",
+    "showText": true,
+    "id": "204_s3"
+  },
+  "kafka": {
+    "name": "Apache Kafka",
+    "color": "#231F20",
+    "iconPosition": "left",
+    "icon": "kafka-icon.svg",
+    "showText": true,
+    "id": "205_kafka"
+  },
+  "rabbitmq": {
+    "name": "RabbitMQ",
+    "color": "#FF6600",
+    "iconPosition": "left",
+    "icon": "rabbitmq-icon.svg",
+    "showText": true,
+    "id": "206_rabbitmq"
+  },
+  "mqtt": {
+    "name": "MQTT",
+    "color": "#660066",
+    "iconPosition": "left",
+    "icon": "mqtt-icon.svg",
+    "showText": true,
+    "id": "207_mqtt"
+  },
+  "cypress": {
+    "name": "Cypress",
+    "color": "#17202C",
+    "iconPosition": "left",
+    "icon": "cypress-icon.svg",
+    "showText": true,
+    "id": "208_cypress"
+  },
+  "playwright": {
+    "name": "Playwright",
+    "color": "#2EAD33",
+    "iconPosition": "left",
+    "icon": "playwright-icon.svg",
+    "showText": true,
+    "id": "209_playwright"
+  },
+  "selenium": {
+    "name": "Selenium",
+    "color": "#43B02A",
+    "iconPosition": "left",
+    "icon": "selenium-icon.svg",
+    "showText": true,
+    "id": "210_selenium"
+  },
+  "mocha": {
+    "name": "Mocha",
+    "color": "#8D6748",
+    "iconPosition": "left",
+    "icon": "mocha-icon.svg",
+    "showText": true,
+    "id": "211_mocha"
+  },
+  "puppeteer": {
+    "name": "Puppeteer",
+    "color": "#40B5A4",
+    "iconPosition": "left",
+    "icon": "puppeteer-icon.svg",
+    "showText": true,
+    "id": "212_puppeteer"
+  },
+  "k6": {
+    "name": "k6",
+    "color": "#7D64FF",
+    "iconPosition": "left",
+    "icon": "k6-icon.svg",
+    "showText": true,
+    "id": "213_k6"
+  },
+  "storybook": {
+    "name": "Storybook",
+    "color": "#FF4785",
+    "iconPosition": "left",
+    "icon": "storybook-icon.svg",
+    "showText": true,
+    "id": "214_storybook"
+  },
+  "tensorflow": {
+    "name": "TensorFlow",
+    "color": "#FF6F00",
+    "iconPosition": "left",
+    "icon": "tensorflow-icon.svg",
+    "showText": true,
+    "id": "215_tensorflow"
+  },
+  "pytorch": {
+    "name": "PyTorch",
+    "color": "#EE4C2C",
+    "iconPosition": "left",
+    "icon": "pytorch-icon.svg",
+    "showText": true,
+    "id": "216_pytorch"
+  },
+  "langchain": {
+    "name": "LangChain",
+    "color": "#1C3C3C",
+    "iconPosition": "left",
+    "icon": "langchain-icon.svg",
+    "showText": true,
+    "id": "217_langchain"
+  },
+  "openai_sdk": {
+    "name": "OpenAI SDK",
+    "color": "#412991",
+    "iconPosition": "left",
+    "icon": "openai-sdk-icon.svg",
+    "showText": true,
+    "id": "218_openai_sdk"
+  },
+  "hugging_face": {
+    "name": "Hugging Face",
+    "color": "#FFD21E",
+    "iconPosition": "left",
+    "icon": "hugging-face-icon.svg",
+    "showText": true,
+    "id": "219_hugging_face"
+  },
+  "pandas": {
+    "name": "Pandas",
+    "color": "#150458",
+    "iconPosition": "left",
+    "icon": "pandas-icon.svg",
+    "showText": true,
+    "id": "220_pandas"
+  },
+  "numpy": {
+    "name": "NumPy",
+    "color": "#013243",
+    "iconPosition": "left",
+    "icon": "numpy-icon.svg",
+    "showText": true,
+    "id": "221_numpy"
+  },
+  "scikit_learn": {
+    "name": "Scikit-learn",
+    "color": "#F7931E",
+    "iconPosition": "left",
+    "icon": "scikit-learn-icon.svg",
+    "showText": true,
+    "id": "222_scikit_learn"
+  },
+  "ollama": {
+    "name": "Ollama",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "ollama-icon.svg",
+    "showText": true,
+    "id": "223_ollama"
+  },
+  "webpack": {
+    "name": "Webpack",
+    "color": "#8DD6F9",
+    "iconPosition": "left",
+    "icon": "webpack-icon.svg",
+    "showText": true,
+    "id": "224_webpack"
+  },
+  "vite": {
+    "name": "Vite",
+    "color": "#646CFF",
+    "iconPosition": "left",
+    "icon": "vite-icon.svg",
+    "showText": true,
+    "id": "225_vite"
+  },
+  "rollup": {
+    "name": "Rollup",
+    "color": "#EC4A3F",
+    "iconPosition": "left",
+    "icon": "rollup-icon.svg",
+    "showText": true,
+    "id": "226_rollup"
+  },
+  "esbuild": {
+    "name": "esbuild",
+    "color": "#FFCF00",
+    "iconPosition": "left",
+    "icon": "esbuild-icon.svg",
+    "showText": true,
+    "id": "227_esbuild"
+  },
+  "babel": {
+    "name": "Babel",
+    "color": "#F9DC3E",
+    "iconPosition": "left",
+    "icon": "babel-icon.svg",
+    "showText": true,
+    "id": "228_babel"
+  },
+  "turborepo": {
+    "name": "Turborepo",
+    "color": "#EF4444",
+    "iconPosition": "left",
+    "icon": "turborepo-icon.svg",
+    "showText": true,
+    "id": "229_turborepo"
+  },
+  "nx": {
+    "name": "Nx",
+    "color": "#143055",
+    "iconPosition": "left",
+    "icon": "nx-icon.svg",
+    "showText": true,
+    "id": "230_nx"
+  },
+  "figma": {
+    "name": "Figma",
+    "color": "#F24E1E",
+    "iconPosition": "left",
+    "icon": "figma-icon.svg",
+    "showText": true,
+    "id": "231_figma"
+  },
+  "framer": {
+    "name": "Framer",
+    "color": "#0055FF",
+    "iconPosition": "left",
+    "icon": "framer-icon.svg",
+    "showText": true,
+    "id": "232_framer"
+  },
+  "auth0": {
+    "name": "Auth0",
+    "color": "#EB5424",
+    "iconPosition": "left",
+    "icon": "auth0-icon.svg",
+    "showText": true,
+    "id": "233_auth0"
+  },
+  "clerk": {
+    "name": "Clerk",
+    "color": "#6C47FF",
+    "iconPosition": "left",
+    "icon": "clerk-icon.svg",
+    "showText": true,
+    "id": "234_clerk"
+  },
+  "keycloak": {
+    "name": "Keycloak",
+    "color": "#4D4D4D",
+    "iconPosition": "left",
+    "icon": "keycloak-icon.svg",
+    "showText": true,
+    "id": "235_keycloak"
+  },
+  "jwt": {
+    "name": "JWT",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "jwt-icon.svg",
+    "showText": true,
+    "id": "236_jwt"
+  },
+  "deno": {
+    "name": "Deno",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "deno-icon.svg",
+    "showText": true,
+    "id": "237_deno"
+  },
+  "yarn": {
+    "name": "Yarn",
+    "color": "#2C8EBB",
+    "iconPosition": "left",
+    "icon": "yarn-icon.svg",
+    "showText": true,
+    "id": "238_yarn"
+  },
+  "pip": {
+    "name": "pip",
+    "color": "#3775A9",
+    "iconPosition": "left",
+    "icon": "pip-icon.svg",
+    "showText": true,
+    "id": "239_pip"
+  },
+  "maven": {
+    "name": "Maven",
+    "color": "#C71A36",
+    "iconPosition": "left",
+    "icon": "maven-icon.svg",
+    "showText": true,
+    "id": "240_maven"
+  },
+  "gradle": {
+    "name": "Gradle",
+    "color": "#02303A",
+    "iconPosition": "left",
+    "icon": "gradle-icon.svg",
+    "showText": true,
+    "id": "241_gradle"
+  },
+  "composer": {
+    "name": "Composer",
+    "color": "#885630",
+    "iconPosition": "left",
+    "icon": "composer-icon.svg",
+    "showText": true,
+    "id": "242_composer"
+  },
+  "intellij": {
+    "name": "IntelliJ IDEA",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "intellij-icon.svg",
+    "showText": true,
+    "id": "243_intellij"
+  },
+  "webstorm": {
+    "name": "WebStorm",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "webstorm-icon.svg",
+    "showText": true,
+    "id": "244_webstorm"
+  },
+  "xcode": {
+    "name": "Xcode",
+    "color": "#147EFB",
+    "iconPosition": "left",
+    "icon": "xcode-icon.svg",
+    "showText": true,
+    "id": "245_xcode"
+  },
+  "android_studio": {
+    "name": "Android Studio",
+    "color": "#3DDC84",
+    "iconPosition": "left",
+    "icon": "android-studio-icon.svg",
+    "showText": true,
+    "id": "246_android_studio"
+  },
+  "vim": {
+    "name": "Vim",
+    "color": "#019733",
+    "iconPosition": "left",
+    "icon": "vim-icon.svg",
+    "showText": true,
+    "id": "247_vim"
+  },
+  "neovim": {
+    "name": "Neovim",
+    "color": "#57A143",
+    "iconPosition": "left",
+    "icon": "neovim-icon.svg",
+    "showText": true,
+    "id": "248_neovim"
+  },
+  "insomnia": {
+    "name": "Insomnia",
+    "color": "#4000BF",
+    "iconPosition": "left",
+    "icon": "insomnia-icon.svg",
+    "showText": true,
+    "id": "249_insomnia"
+  },
+  "dbeaver": {
+    "name": "DBeaver",
+    "color": "#382923",
+    "iconPosition": "left",
+    "icon": "dbeaver-icon.svg",
+    "showText": true,
+    "id": "250_dbeaver"
+  },
+  "venv": {
+    "name": "Python venv",
+    "color": "#3776AB",
+    "iconPosition": "left",
+    "icon": "venv-icon.svg",
+    "showText": true,
+    "id": "251_venv"
   }
 }

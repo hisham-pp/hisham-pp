@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="20" role="img" aria-label="Julia">
+  <title>Julia</title>
+  
+  <rect width="60" height="20" fill="#9558B2" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Julia</title><path d="M11.138 17.569a5.569 5.569 0 1 1-11.138 0 5.569 5.569 0 1 1 11.138 0zm6.431-11.138a5.569 5.569 0 1 1-11.138 0 5.569 5.569 0 1 1 11.138 0zM24 17.569a5.569 5.569 0 1 1-11.138 0 5.569 5.569 0 1 1 11.138 0z"/></svg></g>
+    <text x="390" y="140" transform="scale(.1)" font-weight="bold">Julia</text>
+  </g>
+</svg>

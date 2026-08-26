@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="20" role="img" aria-label="Elixir">
+  <title>Elixir</title>
+  
+  <rect width="63" height="20" fill="#4B275F" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Elixir</title><path d="M19.793 16.575c0 3.752-2.927 7.426-7.743 7.426-5.249 0-7.843-3.71-7.843-8.29 0-5.21 3.892-12.952 8-15.647a.397.397 0 0 1 .61.371 9.716 9.716 0 0 0 1.694 6.518c.522.795 1.092 1.478 1.763 2.352.94 1.227 1.637 1.906 2.644 3.842l.015.028a7.107 7.107 0 0 1 .86 3.4z"/></svg></g>
+    <text x="405" y="140" transform="scale(.1)" font-weight="bold">Elixir</text>
+  </g>
+</svg>
