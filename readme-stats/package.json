@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "badges:generate": "npx tsx scripts/generate-badges.ts"
   },
   "dependencies": {
     "next": "16.3.3",

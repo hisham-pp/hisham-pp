@@ -1,0 +1,13 @@
+{
+  "vitest": {
+    "name": "VITEST",
+    "color": "#000000",
+    "iconPosition": "right",
+    "icon": "vitest-icon.svg",
+    "showText": true,
+    "textWidth": 48,
+    "iconWidth": 17,
+    "iconHeight": 14,
+    "id": "85_vitest"
+  }
+}
