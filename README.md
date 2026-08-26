@@ -23,25 +23,36 @@ I believe in understanding how systems work under the hood, rather than just mak
 
 ---
 
-### 💻 Tech Stack
+### 💻 Tech
 
-<details open>
-  <summary><b>Frontend</b></summary>
-  <br/>
-  React.js • Next.js • TypeScript • JavaScript • Tailwind CSS • Redux (Toolkit, Saga) • Zustand • MUI • Chakra UI
-</details>
-
-<details open>
-  <summary><b>Backend & Database</b></summary>
-  <br/>
-  Node.js • NestJS • PostgreSQL • SQLite • DynamoDB • Supabase • Prisma • TypeORM
-</details>
-
-<details open>
-  <summary><b>Cloud & Infrastructure</b></summary>
-  <br/>
-  AWS (Lambda, S3, SQS, EventBridge, IAM, VPC) • Terraform • AWS SAM • Docker • GitLab CI • GitHub Actions • Vercel
-</details>
+<img src="https://img.shields.io/badge/React.js-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React.js" />
+<img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/Redux_(Toolkit%2C_Saga)-593D88?style=flat-square&logo=redux&logoColor=white" alt="Redux" />
+<img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square&logoColor=white" alt="Zustand" />
+<img src="https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=mui&logoColor=white" alt="MUI" />
+<img src="https://img.shields.io/badge/Chakra_UI-319795?style=flat-square&logo=chakraui&logoColor=white" alt="Chakra UI" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+<img src="https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white" alt="DynamoDB" />
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
+<img src="https://img.shields.io/badge/TypeORM-262627?style=flat-square&logo=typeorm&logoColor=white" alt="TypeORM" />
+<img src="https://img.shields.io/badge/AWS_(Lambda%2C_S3%2C_SQS%2C_EventBridge%2C_IAM%2C_VPC)-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS" />
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
+<img src="https://img.shields.io/badge/AWS_SAM-232F3E?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS SAM" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab CI" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
 
 <br/>
 
