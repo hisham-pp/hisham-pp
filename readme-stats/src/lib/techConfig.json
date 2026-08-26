@@ -204,5 +204,13 @@
     "icon": "reactrouter-icon.svg",
     "showText": true,
     "id": "118_react_router"
+  },
+  "react_spring": {
+    "name": "React Spring",
+    "color": "#1b1a22",
+    "iconPosition": "left",
+    "icon": "reactspring-icon.svg",
+    "showText": true,
+    "id": "119_react_spring"
   }
 }
