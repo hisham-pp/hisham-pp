@@ -9,5 +9,21 @@
     "iconWidth": 17,
     "iconHeight": 14,
     "id": "85_vitest"
+  },
+  "axios": {
+    "name": "axios",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "axios-icon.svg",
+    "showText": true,
+    "id": "86_axios"
+  },
+  "react_js": {
+    "name": "React.js",
+    "color": "#20232a",
+    "iconPosition": "left",
+    "icon": "react-icon.svg",
+    "showText": true,
+    "id": "00_react_js"
   }
 }
