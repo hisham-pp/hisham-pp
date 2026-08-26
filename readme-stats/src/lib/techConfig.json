@@ -188,5 +188,13 @@
     "id": "33_react_query",
     "iconWidth": 16,
     "iconHeight": 16
+  },
+  "react_select": {
+    "name": "React Select",
+    "color": "#2684ff",
+    "iconPosition": "left",
+    "icon": "react-icon.svg",
+    "showText": true,
+    "id": "35_react_select"
   }
 }
