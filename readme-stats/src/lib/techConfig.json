@@ -136,5 +136,39 @@
     "icon": "radix-icon.svg",
     "showText": true,
     "id": "30_radix_ui"
+  },
+  "redux": {
+    "name": "Redux",
+    "color": "#764abc",
+    "iconPosition": "left",
+    "icon": "redux-icon.svg",
+    "showText": true,
+    "id": "07_redux"
+  },
+  "redux_saga": {
+    "name": "Redux Saga",
+    "color": "#999999",
+    "iconPosition": "left",
+    "icon": "reduxsaga-icon.svg",
+    "showText": true,
+    "id": "31_redux_saga",
+    "iconWidth": 23,
+    "iconHeight": 14
+  },
+  "zustand": {
+    "name": "Zustand",
+    "color": "#443e38",
+    "iconPosition": "left",
+    "icon": "zustand-icon.svg",
+    "showText": true,
+    "id": "08_zustand"
+  },
+  "react_hook_form": {
+    "name": "React Hook Form",
+    "color": "#ec5990",
+    "iconPosition": "left",
+    "icon": "reacthookform-icon.svg",
+    "showText": true,
+    "id": "32_react_hook_form"
   }
 }
