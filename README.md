@@ -26,7 +26,7 @@ I believe in understanding how systems work under the hood, rather than just mak
 ### 💻 Tech
 
 <p align="center">
-  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=react,nextjs,angular,typescript,javascript,html5,css3,tailwindcss,mui,chakra,radix_ui,redux,redux_saga,zustand,react_hook_form,rtk_query,react_query,react_select,react_datepicker,apexcharts" alt="Frontend Tech Stack Marquee" width="850" />
+  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=react,nextjs,angular,typescript,javascript,html5,css3,tailwindcss,mui,chakra,radix_ui,redux,redux_saga,zustand,react_hook_form,rtk_query,react_query,react_select,react_datepicker,react_router,react_spring,apexcharts" alt="Frontend Tech Stack Marquee" width="850" />
   <br/>
   <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=vitest,axios,lodash,nextjs,next_auth,zod,yup,dayjs,date_fns,i18next,jspdf,react_quill,react_toastify,stylis_plugin_rtl,react_dropzone,monaco_editor,react_easy_crop,google_libphonenumber,dnd_kit,emotion_react" alt="UI Tools Tech Stack Marquee" width="850" />
   <br/>
