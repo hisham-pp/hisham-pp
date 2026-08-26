@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="80" height="20" role="img" aria-label="VITEST">
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="20" role="img" aria-label="VITEST">
   <title>VITEST</title>
-  <g shape-rendering="crispEdges">
-    <rect width="80" height="20" fill="#000000" rx="3" />
-  </g>
+  <defs><linearGradient id="vitest-grad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#10B981"/><stop offset="100%" stop-color="#1E40AF"/></linearGradient></defs>
+  <rect width="81" height="20" fill="url(#vitest-grad)" rx="3" />
   <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
-    <g transform="translate(57, 3)"><svg x="0" y="0" width="17" height="14"><svg viewBox="97 -4 27 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(58, 3)"><svg x="0" y="0" width="17" height="14" viewBox="97 -4 27 23" fill="none" xmlns="http://www.w3.org/2000/svg">
     
     <path d="M109.665 13.778C109.559 13.9672 109.312 14.0211 109.136 13.8933L102.997 9.4286C102.903 9.36023 102.848 9.25111 102.848 9.13509V3.75391C102.848 3.45764 103.184 3.28637 103.424 3.4604L107.178 6.19105C107.529 6.44657 108.024 6.33815 108.237 5.96039L111.347 0.432106C111.411 0.318157 111.532 0.247025 111.663 0.247025H116.656C116.934 0.247025 117.109 0.546056 116.973 0.787767L109.665 13.7773V13.778Z" fill="#22FF84"/>
     <mask id="mask0_242_20910" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="102" y="0" width="16" height="14">
@@ -56,8 +55,7 @@
             <feGaussianBlur stdDeviation="1.47329" result="effect1_foregroundBlur_242_20910"/>
         </filter>
     </defs>
-</svg>
 </svg></g>
-    <text x="290" y="140" transform="scale(.1)" textLength="480" font-weight="bold">VITEST</text>
+    <text x="300" y="140" transform="scale(.1)" textLength="480" font-weight="bold">VITEST</text>
   </g>
 </svg>

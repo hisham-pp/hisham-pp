@@ -1,7 +1,8 @@
 {
   "vitest": {
     "name": "VITEST",
-    "color": "#000000",
+    "color": "url(#vitest-grad)",
+    "defs": "<linearGradient id=\"vitest-grad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\"><stop offset=\"0%\" stop-color=\"#10B981\"/><stop offset=\"100%\" stop-color=\"#1E40AF\"/></linearGradient>",
     "iconPosition": "right",
     "icon": "vitest-icon.svg",
     "showText": true,
@@ -12,7 +13,8 @@
   },
   "axios": {
     "name": "axios",
-    "color": "#000000",
+    "color": "url(#axios-grad)",
+    "defs": "<linearGradient id=\"axios-grad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\"><stop offset=\"0%\" stop-color=\"#377A9E\"/><stop offset=\"100%\" stop-color=\"#381C4F\"/></linearGradient>",
     "iconPosition": "left",
     "icon": "axios-icon.svg",
     "showText": true,
@@ -25,5 +27,13 @@
     "icon": "react-icon.svg",
     "showText": true,
     "id": "00_react_js"
+  },
+  "lodash": {
+    "name": "lodash",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "lodash-icon.svg",
+    "showText": true,
+    "id": "87_lodash"
   }
 }
