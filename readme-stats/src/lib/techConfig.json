@@ -212,5 +212,13 @@
     "icon": "reactspring-icon.svg",
     "showText": true,
     "id": "119_react_spring"
+  },
+  "apexcharts": {
+    "name": "ApexCharts",
+    "color": "#00e396",
+    "iconPosition": "left",
+    "icon": "apexcharts-icon.svg",
+    "showText": true,
+    "id": "37_apexcharts"
   }
 }
