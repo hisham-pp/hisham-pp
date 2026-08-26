@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="75" height="20" role="img" aria-label="passport"><title>passport</title><g shape-rendering="crispEdges"><rect width="0" height="20" fill="#555"/><rect x="0" width="75" height="20" fill="#000000"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><image x="5" y="3" width="14" height="14" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlBhc3Nwb3J0PC90aXRsZT48cGF0aCBkPSJNMTEuODc1IDBBOS42IDkuNiAwIDAgMCAyLjQgOS40NzVoNC44QTQuODEgNC44MSAwIDAgMSAxMS44NzUgNC44em0uMjUgMHY0LjhBNC44MSA0LjgxIDAgMCAxIDE2LjggOS40NzVoNC44QTkuNiA5LjYgMCAwIDAgMTIuMTI1IDB6TTIuNCA5LjcyNVYyNEgxMnYtNC44SDcuMlY5LjcyNHptOS42IDkuNDc0YTkuNTk5IDkuNTk5IDAgMCAwIDkuNi05LjQ3NGgtNC44QTQuODA3IDQuODA3IDAgMCAxIDEyIDE0LjR6Ii8+PC9zdmc+"/><text x="465" y="140" textLength="470" transform="scale(.1)">passport</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="20" role="img" aria-label="Passport">
+  <title>Passport</title>
+  
+  <rect width="91" height="20" fill="#34E27A" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Passport</title><path d="M11.875 0A9.6 9.6 0 0 0 2.4 9.475h4.8A4.81 4.81 0 0 1 11.875 4.8zm.25 0v4.8A4.81 4.81 0 0 1 16.8 9.475h4.8A9.6 9.6 0 0 0 12.125 0zM2.4 9.725V24H12v-4.8H7.2V9.724zm9.6 9.474a9.599 9.599 0 0 0 9.6-9.474h-4.8A4.807 4.807 0 0 1 12 14.4z"/></svg></g>
+    <text x="545" y="140" transform="scale(.1)" font-weight="bold">Passport</text>
+  </g>
+</svg>

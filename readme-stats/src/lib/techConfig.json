@@ -404,5 +404,94 @@
     "icon": "python-icon.svg",
     "showText": true,
     "id": "11_python"
+  },
+  "aws_lambda": {
+    "name": "AWS Lambda",
+    "color": "#FF9900",
+    "iconPosition": "left",
+    "icon": "aws-lambda-icon.svg",
+    "showText": true,
+    "id": "49_aws_lambda"
+  },
+  "soap": {
+    "name": "SOAP",
+    "color": "#607d8b",
+    "iconPosition": "left",
+    "icon": "soap-icon.svg",
+    "showText": true,
+    "id": "50_soap"
+  },
+  "azure_functions": {
+    "name": "Azure Functions",
+    "color": "#0078D4",
+    "iconPosition": "left",
+    "icon": "azure-functions-icon.svg",
+    "showText": true,
+    "id": "51_azure_functions"
+  },
+  "bcryptjs": {
+    "name": "bcryptjs",
+    "color": "#4A5568",
+    "iconPosition": "left",
+    "icon": "bcryptjs-icon.svg",
+    "showText": true,
+    "id": "52_bcryptjs"
+  },
+  "express": {
+    "name": "Express",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "express-icon.svg",
+    "showText": true,
+    "id": "53_express"
+  },
+  "passport": {
+    "name": "Passport",
+    "color": "#34E27A",
+    "iconPosition": "left",
+    "icon": "passport-icon.svg",
+    "showText": true,
+    "id": "54_passport"
+  },
+  "rxjs": {
+    "name": "RxJS",
+    "color": "url(#rxjs-grad)",
+    "defs": "<linearGradient id=\"rxjs-grad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\"><stop offset=\"0%\" stop-color=\"#3b82f6\"/><stop offset=\"100%\" stop-color=\"#ec4899\"/></linearGradient>",
+    "iconPosition": "left",
+    "icon": "rxjs-icon.svg",
+    "showText": true,
+    "id": "55_rxjs"
+  },
+  "jest": {
+    "name": "Jest",
+    "color": "#C21325",
+    "iconPosition": "left",
+    "icon": "jest-icon.svg",
+    "showText": true,
+    "id": "56_jest"
+  },
+  "boto3": {
+    "name": "Boto3",
+    "color": "#FF9900",
+    "iconPosition": "left",
+    "icon": "boto3-icon.svg",
+    "showText": true,
+    "id": "59_boto3"
+  },
+  "django": {
+    "name": "Django",
+    "color": "#092E20",
+    "iconPosition": "left",
+    "icon": "django-icon.svg",
+    "showText": true,
+    "id": "120_django"
+  },
+  "flask": {
+    "name": "Flask",
+    "color": "#000000",
+    "iconPosition": "left",
+    "icon": "flask-icon.svg",
+    "showText": true,
+    "id": "121_flask"
   }
 }

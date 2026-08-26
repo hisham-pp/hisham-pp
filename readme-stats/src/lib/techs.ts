@@ -117,4 +117,6 @@ export const techMap: Record<string, string> = {
   antigravity: "115_antigravity.svg",
   antigravity_cli: "116_antigravity_cli.svg",
   windows: "117_windows.svg",
+  django: "120_django.svg",
+  flask: "121_flask.svg",
 };

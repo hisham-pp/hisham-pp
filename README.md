@@ -30,7 +30,7 @@ I believe in understanding how systems work under the hood, rather than just mak
   <br/>
   <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=vitest,axios,lodash,nextjs,next_auth,zod,yup,dayjs,date_fns,i18next,jspdf,react_quill,react_toastify,stylis_plugin_rtl,react_dropzone,monaco_editor,react_easy_crop,google_libphonenumber,dnd_kit,emotion_react" alt="UI Tools Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=nodejs,nestjs,python,rest_api,api_integration,webhooks,serverless,aws_lambda,soap,azure_functions,bcryptjs,express,passport,rxjs,jest,zod,yup,boto3,opentelemetry,bullmq,exceljs,pdfkit,pdfmake,xlsx,uuid,sanitize_html,multer,mongoose" alt="Backend Tech Stack Marquee" width="850" />
+  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=nodejs,nestjs,python,django,flask,rest_api,api_integration,webhooks,serverless,aws_lambda,soap,azure_functions,bcryptjs,express,passport,rxjs,jest,zod,yup,boto3,opentelemetry,bullmq,exceljs,pdfkit,pdfmake,xlsx,uuid,sanitize_html,multer,mongoose" alt="Backend Tech Stack Marquee" width="850" />
   <br/>
   <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=postgresql,mongodb,sqlite,dynamodb,supabase,prisma,typeorm,drizzle_orm,db" alt="Databases Tech Stack Marquee" width="850" />
   <br/>

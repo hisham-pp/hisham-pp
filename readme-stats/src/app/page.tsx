@@ -11,7 +11,7 @@ const techGroups = [
   },
   {
     title: "Backend",
-    keys: "nodejs,nestjs,python,rest_api,api_integration,webhooks,serverless,aws_lambda,soap,azure_functions,bcryptjs,express,passport,rxjs,jest,zod,yup,boto3,opentelemetry,bullmq,exceljs,pdfkit,pdfmake,xlsx,uuid,sanitize_html,multer,mongoose".split(",")
+    keys: "nodejs,nestjs,python,django,flask,rest_api,api_integration,webhooks,serverless,aws_lambda,soap,azure_functions,bcryptjs,express,passport,rxjs,jest,zod,yup,boto3,opentelemetry,bullmq,exceljs,pdfkit,pdfmake,xlsx,uuid,sanitize_html,multer,mongoose".split(",")
   },
   {
     title: "Databases",
