@@ -170,5 +170,13 @@
     "icon": "reacthookform-icon.svg",
     "showText": true,
     "id": "32_react_hook_form"
+  },
+  "rtk_query": {
+    "name": "RTK Query",
+    "color": "#512da8",
+    "iconPosition": "left",
+    "icon": "redux-icon.svg",
+    "showText": true,
+    "id": "34_rtk_query"
   }
 }
