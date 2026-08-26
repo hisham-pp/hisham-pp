@@ -228,5 +228,13 @@
     "icon": "react-icon.svg",
     "showText": true,
     "id": "36_react_datepicker"
+  },
+  "zod": {
+    "name": "Zod",
+    "color": "#3E67B1",
+    "iconPosition": "left",
+    "icon": "zod-icon.svg",
+    "showText": true,
+    "id": "57_zod"
   }
 }
