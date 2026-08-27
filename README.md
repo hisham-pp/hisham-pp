@@ -26,25 +26,25 @@ I believe in understanding how systems work under the hood, rather than just mak
 ### 💻 Tech
 
 <p align="center">
-  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=react,nextjs,angular,typescript,javascript,html5,css3,tailwindcss,mui,chakra,radix_ui,redux,redux_saga,zustand,react_hook_form,rtk_query,react_query,react_select,react_datepicker,react_router,react_spring,apexcharts,vuejs,nuxtjs,three_js" alt="Frontend Tech Stack Marquee" width="850" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-stack-marquee?techs=react,nextjs,angular,typescript,javascript,html5,css3,tailwindcss,mui,chakra,radix_ui,redux,redux_saga,zustand,react_hook_form,rtk_query,react_query,react_select,react_datepicker,react_router,react_spring,apexcharts,vuejs,nuxtjs,three_js" alt="Frontend Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=vitest,axios,lodash,next_auth,zod,yup,dayjs,date_fns,i18next,jspdf,react_quill,react_toastify,stylis_plugin_rtl,react_dropzone,monaco_editor,react_easy_crop,google_libphonenumber,dnd_kit,emotion_react,graphql" alt="UI Tools Tech Stack Marquee" width="850" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-stack-marquee?techs=vitest,axios,lodash,next_auth,zod,yup,dayjs,date_fns,i18next,jspdf,react_quill,react_toastify,stylis_plugin_rtl,react_dropzone,monaco_editor,react_easy_crop,google_libphonenumber,dnd_kit,emotion_react,graphql" alt="UI Tools Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=nodejs,nestjs,python,django,flask,fastapi,fastify,rest_api,api_integration,webhooks,serverless,aws_lambda,soap,azure_functions,bcryptjs,express,passport,rxjs,jest,boto3,opentelemetry,bullmq,exceljs,pdfkit,pdfmake,xlsx,uuid,sanitize_html,multer,mongoose" alt="Backend Tech Stack Marquee" width="850" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-stack-marquee?techs=nodejs,nestjs,python,django,flask,fastapi,fastify,rest_api,api_integration,webhooks,serverless,aws_lambda,soap,azure_functions,bcryptjs,express,passport,rxjs,jest,boto3,opentelemetry,bullmq,exceljs,pdfkit,pdfmake,xlsx,uuid,sanitize_html,multer,mongoose" alt="Backend Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=postgresql,mongodb,sqlite,dynamodb,supabase,prisma,typeorm,drizzle_orm,redis,mysql,firebase,mssql,s3,db" alt="Databases Tech Stack Marquee" width="850" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-stack-marquee?techs=postgresql,mongodb,sqlite,dynamodb,supabase,prisma,typeorm,drizzle_orm,redis,mysql,firebase,mssql,s3,db" alt="Databases Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=gcp,netlify,cloudflare,railway,kubernetes,ansible,nginx,rabbitmq" alt="Cloud and DevOps Tech Stack Marquee" width="850" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-stack-marquee?techs=gcp,netlify,cloudflare,railway,kubernetes,ansible,nginx,rabbitmq" alt="Cloud and DevOps Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=git,github,gitlab,vscode,cursor,windsurf,kiro,claude_code,claude_desktop,codex,devin,gemini,gemini_cli,claude,chatgpt,ai_studio,antigravity,antigravity_cli,pnpm,npm,sonarqube,postman,linux,windows,wsl,eslint,prettier,lefthook,husky,figma,vim,neovim,dbeaver,storybook" alt="Tools and Development Tech Stack Marquee" width="850" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-stack-marquee?techs=git,github,gitlab,vscode,cursor,windsurf,kiro,claude_code,claude_desktop,codex,devin,gemini,gemini_cli,claude,chatgpt,ai_studio,antigravity,antigravity_cli,pnpm,npm,sonarqube,postman,linux,windows,wsl,eslint,prettier,lefthook,husky,figma,vim,neovim,dbeaver,storybook" alt="Tools and Development Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=vite,webpack,esbuild,babel,turborepo,nx,yarn,pip,venv,auth0,jwt,expo" alt="Build Tools, Auth and Package Managers" width="850" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-stack-marquee?techs=vite,webpack,esbuild,babel,turborepo,nx,yarn,pip,venv,auth0,jwt,expo" alt="Build Tools, Auth and Package Managers" width="850" />
   <br/>
-  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=pytorch,numpy,pandas,openai_sdk" alt="AI and ML Tech Stack Marquee" width="850" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-stack-marquee?techs=pytorch,numpy,pandas,openai_sdk" alt="AI and ML Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=playwright,puppeteer" alt="Testing Tech Stack Marquee" width="850" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-stack-marquee?techs=playwright,puppeteer" alt="Testing Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://hisham-pp.vercel.app/api/tech-stack-marquee?techs=javascript,typescript,python,html5,css3,sql,json,yaml,xml,terraform,bash,zsh,powershell,markdown,c,cpp" alt="Languages and Scripting Tech Stack Marquee" width="850" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-stack-marquee?techs=javascript,typescript,python,html5,css3,sql,json,yaml,xml,terraform,bash,zsh,powershell,markdown,c,cpp" alt="Languages and Scripting Tech Stack Marquee" width="850" />
 </p>
 
 
@@ -98,8 +98,8 @@ I believe in understanding how systems work under the hood, rather than just mak
 ### 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://hisham-pp.vercel.app/api/stats?username=hisham-pp" alt="GitHub Stats" width="48%" />
-  <img src="https://hisham-pp.vercel.app/api/top-langs?username=hisham-pp" alt="Top Languages" width="48%" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/stats?username=hisham-pp" alt="GitHub Stats" width="48%" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/top-langs?username=hisham-pp" alt="Top Languages" width="48%" />
 </div>
 
 <br/>
