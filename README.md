@@ -34,13 +34,13 @@ I believe in understanding how systems work under the hood, rather than just mak
   <br/>
   <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=postgresql,mongodb,sqlite,dynamodb,supabase,prisma,typeorm,drizzle_orm,redis,mysql,firebase,mssql,s3,db" alt="Databases Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=gcp,netlify,cloudflare,railway,kubernetes,ansible,nginx,rabbitmq" alt="Cloud and DevOps Tech Stack Marquee" width="850" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=gcp,vercel,netlify,cloudflare,railway,kubernetes,ansible,nginx,rabbitmq" alt="Cloud and DevOps Tech Stack Marquee" width="850" />
   <br/>
   <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=git,github,gitlab,vscode,cursor,windsurf,kiro,claude_code,claude_desktop,codex,devin,gemini,gemini_cli,claude,chatgpt,ai_studio,antigravity,antigravity_cli,pnpm,npm,sonarqube,postman,linux,windows,wsl,eslint,prettier,lefthook,husky,figma,vim,neovim,dbeaver,storybook" alt="Tools and Development Tech Stack Marquee" width="850" />
   <br/>
   <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=vite,webpack,esbuild,babel,turborepo,nx,yarn,pip,venv,auth0,jwt,expo" alt="Build Tools, Auth and Package Managers" width="850" />
   <br/>
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=pytorch,numpy,pandas,openai_sdk" alt="AI and ML Tech Stack Marquee" width="850" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=pytorch,numpy,pandas,openai_sdk,v0" alt="AI and ML Tech Stack Marquee" width="850" />
   <br/>
   <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=playwright,puppeteer" alt="Testing Tech Stack Marquee" width="850" />
   <br/>
