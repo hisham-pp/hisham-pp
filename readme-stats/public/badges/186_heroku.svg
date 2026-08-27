@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="76" height="20" role="img" aria-label="Heroku">
-  <title>Heroku</title>
-  
-  <rect width="76" height="20" fill="#430098" rx="3" />
-  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
-    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M20.02 2H3.98A1.98 1.98 0 0 0 2 3.98v16.04C2 21.12 2.88 22 3.98 22h16.04A1.98 1.98 0 0 0 22 20.02V3.98A1.98 1.98 0 0 0 20.02 2zM8 17.5H6V6.5h2v4.75c.85-.65 2-1.25 3.5-1.25V12c-1.5 0-2.7.7-3.5 1.5zM14 7.5c-1 0-2.1-.5-3-1.5h2c.45.35.98.5 1.5.5s1.05-.15 1.5-.5H18c-.9 1-2 1.5-3 1.5zm-1 10V12l3-3 1 1-2.5 2.5 2.5 2.5-1 1z"/></svg></g>
-    <text x="470" y="140" transform="scale(.1)" font-weight="bold">Heroku</text>
-  </g>
-</svg>

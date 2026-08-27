@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="105" height="20" role="img" aria-label="Antigravity">
-  <title>Antigravity</title>
-  
-  <rect width="105" height="20" fill="#20232A" rx="3" />
-  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
-    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71L12 2zm0 3.24L16.71 18H12V5.24zM12 18H7.29L12 5.24V18z"/></svg></g>
-    <text x="615" y="140" transform="scale(.1)" font-weight="bold">Antigravity</text>
-  </g>
-</svg>

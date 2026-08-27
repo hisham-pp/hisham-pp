@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="69" height="20" role="img" aria-label="Azure">
-  <title>Azure</title>
-  
-  <rect width="69" height="20" fill="#0089D6" rx="3" />
-  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
-    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M.08 12.19L6.22 2.2A.52.52 0 0 1 6.73 2h4.3a.52.52 0 0 1 .44.78L6.9 9.97l5.85 8.53H5.6a.52.52 0 0 1-.43-.23zM13.1 2.44a.52.52 0 0 1 .44-.44h4.13a.52.52 0 0 1 .5.38l2.14 7.35 1.57 5.37-5.69 6.43a.52.52 0 0 1-.39.17H11.3a.52.52 0 0 1-.4-.85l7.68-8.68z"/></svg></g>
-    <text x="435" y="140" transform="scale(.1)" font-weight="bold">Azure</text>
-  </g>
-</svg>
