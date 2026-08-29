@@ -98,8 +98,10 @@ I believe in understanding how systems work under the hood, rather than just mak
 ### 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/stats?username=hisham-pp" alt="GitHub Stats" width="48%" />
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/top-langs?username=hisham-pp" alt="Top Languages" width="48%" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/stats?username=hisham-pp" alt="GitHub Stats" width="100%" />
+</div>
+<div align="center">
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/top-langs?username=hisham-pp&type=treemap-icon" alt="Top Languages" width="100%" />
 </div>
 
 <br/>
