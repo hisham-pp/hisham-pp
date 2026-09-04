@@ -1,6 +1,6 @@
 <!-- Animated Tech Rainfall Banner -->
 <div align="center">
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-icon-rain?techs=react,nextjs,angular,typescript,javascript,html5,css3,tailwindcss,mui,chakra,radix_ui,redux,redux_saga,zustand,react_hook_form,rtk_query,react_query,react_select,react_datepicker,react_router,react_spring,apexcharts,vuejs,nuxtjs,three_js,vitest,axios,lodash,next_auth,zod,yup,dayjs,date_fns,i18next,jspdf,react_quill,react_toastify,stylis_plugin_rtl,react_dropzone,monaco_editor,react_easy_crop,google_libphonenumber,dnd_kit,emotion_react,graphql,nodejs,nestjs,python,django,flask,fastapi,fastify,rest_api,api_integration,webhooks,serverless,aws_lambda,soap,azure_functions,bcryptjs,express,passport,rxjs,jest,boto3,opentelemetry,bullmq,exceljs,pdfkit,pdfmake,xlsx,uuid,sanitize_html,multer,mongoose,postgresql,mongodb,sqlite,dynamodb,supabase,prisma,typeorm,drizzle_orm,redis,mysql,firebase,mssql,s3,db,gcp,vercel,netlify,cloudflare,railway,kubernetes,ansible,nginx,rabbitmq,git,github,gitlab,vscode,cursor,windsurf,kiro,claude_code,claude_desktop,codex,devin,gemini,gemini_cli,claude,chatgpt,ai_studio,antigravity,antigravity_cli,pnpm,npm,sonarqube,postman,linux,windows,wsl,eslint,prettier,lefthook,husky,figma,vim,neovim,dbeaver,storybook,vite,webpack,esbuild,babel,turborepo,nx,yarn,pip,venv,auth0,jwt,expo,pytorch,numpy,pandas,openai_sdk,v0,playwright,puppeteer,javascript,typescript,python,html5,css3,sql,json,yaml,xml,terraform,bash,zsh,powershell,markdown,c,cpp&name=Hi%2C%20I'm%20Hisham&width=850&height=250&color=FFFFFF&bgcolor=transparent&fontSize=54&description=I'm%20a%20Full%20Stack%20Engineer%20specializing%20in%20modern%20TypeScript%20applications%20and%20cloud%20infrastructure.%20I%20build%20robust%20systems%2C%20design%20efficient%20architectures%2C%20and%20enjoy%20moving%20beyond%20standard%20frontend%20work%20into%20deep%20infrastructure%20and%20developer%20tooling.&v=5" alt="Hisham - Full Stack Engineer" width="100%" />
+  <img src="https://raw.githubusercontent.com/hisham-pp/hisham-pp/output/tech-icon-rain.svg" alt="Hisham - Full Stack Engineer" width="100%" />
 </div>
 
 <br />
@@ -20,25 +20,25 @@ I believe in understanding how systems work under the hood, rather than just mak
 ### 💻 Tech
 
 <p align="center">
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=react,nextjs,angular,typescript,javascript,html5,css3,tailwindcss,mui,chakra,radix_ui,redux,redux_saga,zustand,react_hook_form,rtk_query,react_query,react_select,react_datepicker,react_router,react_spring,apexcharts,vuejs,nuxtjs,three_js" alt="Frontend Tech Stack Marquee" width="850" />
+  <img src="https://raw.githubusercontent.com/hisham-pp/hisham-pp/output/marquee-frontend.svg" alt="Frontend Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=vitest,axios,lodash,next_auth,zod,yup,dayjs,date_fns,i18next,jspdf,react_quill,react_toastify,stylis_plugin_rtl,react_dropzone,monaco_editor,react_easy_crop,google_libphonenumber,dnd_kit,emotion_react,graphql" alt="UI Tools Tech Stack Marquee" width="850" />
+  <img src="https://raw.githubusercontent.com/hisham-pp/hisham-pp/output/marquee-ui-tools.svg" alt="UI Tools Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=nodejs,nestjs,python,django,flask,fastapi,fastify,rest_api,api_integration,webhooks,serverless,aws_lambda,soap,azure_functions,bcryptjs,express,passport,rxjs,jest,boto3,opentelemetry,bullmq,exceljs,pdfkit,pdfmake,xlsx,uuid,sanitize_html,multer,mongoose" alt="Backend Tech Stack Marquee" width="850" />
+  <img src="https://raw.githubusercontent.com/hisham-pp/hisham-pp/output/marquee-backend.svg" alt="Backend Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=postgresql,mongodb,sqlite,dynamodb,supabase,prisma,typeorm,drizzle_orm,redis,mysql,firebase,mssql,s3,db" alt="Databases Tech Stack Marquee" width="850" />
+  <img src="https://raw.githubusercontent.com/hisham-pp/hisham-pp/output/marquee-databases.svg" alt="Databases Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=gcp,vercel,netlify,cloudflare,railway,kubernetes,ansible,nginx,rabbitmq" alt="Cloud and DevOps Tech Stack Marquee" width="850" />
+  <img src="https://raw.githubusercontent.com/hisham-pp/hisham-pp/output/marquee-cloud.svg" alt="Cloud and DevOps Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=git,github,gitlab,vscode,cursor,windsurf,kiro,claude_code,claude_desktop,codex,devin,gemini,gemini_cli,claude,chatgpt,ai_studio,antigravity,antigravity_cli,pnpm,npm,sonarqube,postman,linux,windows,wsl,eslint,prettier,lefthook,husky,figma,vim,neovim,dbeaver,storybook" alt="Tools and Development Tech Stack Marquee" width="850" />
+  <img src="https://raw.githubusercontent.com/hisham-pp/hisham-pp/output/marquee-tools.svg" alt="Tools and Development Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=vite,webpack,esbuild,babel,turborepo,nx,yarn,pip,venv,auth0,jwt,expo" alt="Build Tools, Auth and Package Managers" width="850" />
+  <img src="https://raw.githubusercontent.com/hisham-pp/hisham-pp/output/marquee-build-auth.svg" alt="Build Tools, Auth and Package Managers" width="850" />
   <br/>
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=pytorch,numpy,pandas,openai_sdk,v0" alt="AI and ML Tech Stack Marquee" width="850" />
+  <img src="https://raw.githubusercontent.com/hisham-pp/hisham-pp/output/marquee-ai-ml.svg" alt="AI and ML Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=playwright,puppeteer" alt="Testing Tech Stack Marquee" width="850" />
+  <img src="https://raw.githubusercontent.com/hisham-pp/hisham-pp/output/marquee-testing.svg" alt="Testing Tech Stack Marquee" width="850" />
   <br/>
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=javascript,typescript,python,html5,css3,sql,json,yaml,xml,terraform,bash,zsh,powershell,markdown,c,cpp" alt="Languages and Scripting Tech Stack Marquee" width="850" />
+  <img src="https://raw.githubusercontent.com/hisham-pp/hisham-pp/output/marquee-languages.svg" alt="Languages and Scripting Tech Stack Marquee" width="850" />
 </p>
 
 ---
@@ -82,10 +82,10 @@ I believe in understanding how systems work under the hood, rather than just mak
 ### 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/stats?username=hisham-pp" alt="GitHub Stats" width="100%" />
+  <img src="https://raw.githubusercontent.com/hisham-pp/hisham-pp/output/github-stats.svg" alt="GitHub Stats" width="100%" />
 </div>
 <div align="center">
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/top-langs?username=hisham-pp&type=treemap-icon" alt="Top Languages" width="100%" />
+  <img src="https://raw.githubusercontent.com/hisham-pp/hisham-pp/output/top-langs.svg" alt="Top Languages" width="100%" />
 </div>
 
 <br/>

@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Profile SVGs & Snake Animation
 
 on:
   # Automatically run every 12 hours
@@ -23,6 +23,55 @@ jobs:
     timeout-minutes: 10
     
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create dist directory
+        run: mkdir -p dist
+
+      - name: Generate Readme Stats & Marquee SVGs
+        run: |
+          BASE_URL="https://readme-stats-theta-sepia.vercel.app"
+
+          echo "Generating Tech Icon Rain Banner..."
+          curl -s -f "${BASE_URL}/api/tech-icon-rain?techs=react,nextjs,angular,typescript,javascript,html5,css3,tailwindcss,mui,chakra,radix_ui,redux,redux_saga,zustand,react_hook_form,rtk_query,react_query,react_select,react_datepicker,react_router,react_spring,apexcharts,vuejs,nuxtjs,three_js,vitest,axios,lodash,next_auth,zod,yup,dayjs,date_fns,i18next,jspdf,react_quill,react_toastify,stylis_plugin_rtl,react_dropzone,monaco_editor,react_easy_crop,google_libphonenumber,dnd_kit,emotion_react,graphql,nodejs,nestjs,python,django,flask,fastapi,fastify,rest_api,api_integration,webhooks,serverless,aws_lambda,soap,azure_functions,bcryptjs,express,passport,rxjs,jest,boto3,opentelemetry,bullmq,exceljs,pdfkit,pdfmake,xlsx,uuid,sanitize_html,multer,mongoose,postgresql,mongodb,sqlite,dynamodb,supabase,prisma,typeorm,drizzle_orm,redis,mysql,firebase,mssql,s3,db,gcp,vercel,netlify,cloudflare,railway,kubernetes,ansible,nginx,rabbitmq,git,github,gitlab,vscode,cursor,windsurf,kiro,claude_code,claude_desktop,codex,devin,gemini,gemini_cli,claude,chatgpt,ai_studio,antigravity,antigravity_cli,pnpm,npm,sonarqube,postman,linux,windows,wsl,eslint,prettier,lefthook,husky,figma,vim,neovim,dbeaver,storybook,vite,webpack,esbuild,babel,turborepo,nx,yarn,pip,venv,auth0,jwt,expo,pytorch,numpy,pandas,openai_sdk,v0,playwright,puppeteer,javascript,typescript,python,html5,css3,sql,json,yaml,xml,terraform,bash,zsh,powershell,markdown,c,cpp&name=Hi%2C%20I'm%20Hisham&width=850&height=250&color=FFFFFF&bgcolor=transparent&fontSize=54&description=I'm%20a%20Full%20Stack%20Engineer%20specializing%20in%20modern%20TypeScript%20applications%20and%20cloud%20infrastructure.%20I%20build%20robust%20systems%2C%20design%20efficient%20architectures%2C%20and%20enjoy%20moving%20beyond%20standard%20frontend%20work%20into%20deep%20infrastructure%20and%20developer%20tooling.&v=5" -o dist/tech-icon-rain.svg
+
+          echo "Generating Marquee 1 (Frontend)..."
+          curl -s -f "${BASE_URL}/api/tech-badge-marquee?techs=react,nextjs,angular,typescript,javascript,html5,css3,tailwindcss,mui,chakra,radix_ui,redux,redux_saga,zustand,react_hook_form,rtk_query,react_query,react_select,react_datepicker,react_router,react_spring,apexcharts,vuejs,nuxtjs,three_js" -o dist/marquee-frontend.svg
+
+          echo "Generating Marquee 2 (UI Tools)..."
+          curl -s -f "${BASE_URL}/api/tech-badge-marquee?techs=vitest,axios,lodash,next_auth,zod,yup,dayjs,date_fns,i18next,jspdf,react_quill,react_toastify,stylis_plugin_rtl,react_dropzone,monaco_editor,react_easy_crop,google_libphonenumber,dnd_kit,emotion_react,graphql" -o dist/marquee-ui-tools.svg
+
+          echo "Generating Marquee 3 (Backend)..."
+          curl -s -f "${BASE_URL}/api/tech-badge-marquee?techs=nodejs,nestjs,python,django,flask,fastapi,fastify,rest_api,api_integration,webhooks,serverless,aws_lambda,soap,azure_functions,bcryptjs,express,passport,rxjs,jest,boto3,opentelemetry,bullmq,exceljs,pdfkit,pdfmake,xlsx,uuid,sanitize_html,multer,mongoose" -o dist/marquee-backend.svg
+
+          echo "Generating Marquee 4 (Databases)..."
+          curl -s -f "${BASE_URL}/api/tech-badge-marquee?techs=postgresql,mongodb,sqlite,dynamodb,supabase,prisma,typeorm,drizzle_orm,redis,mysql,firebase,mssql,s3,db" -o dist/marquee-databases.svg
+
+          echo "Generating Marquee 5 (Cloud & DevOps)..."
+          curl -s -f "${BASE_URL}/api/tech-badge-marquee?techs=gcp,vercel,netlify,cloudflare,railway,kubernetes,ansible,nginx,rabbitmq" -o dist/marquee-cloud.svg
+
+          echo "Generating Marquee 6 (Tools & Dev)..."
+          curl -s -f "${BASE_URL}/api/tech-badge-marquee?techs=git,github,gitlab,vscode,cursor,windsurf,kiro,claude_code,claude_desktop,codex,devin,gemini,gemini_cli,claude,chatgpt,ai_studio,antigravity,antigravity_cli,pnpm,npm,sonarqube,postman,linux,windows,wsl,eslint,prettier,lefthook,husky,figma,vim,neovim,dbeaver,storybook" -o dist/marquee-tools.svg
+
+          echo "Generating Marquee 7 (Build Tools & Auth)..."
+          curl -s -f "${BASE_URL}/api/tech-badge-marquee?techs=vite,webpack,esbuild,babel,turborepo,nx,yarn,pip,venv,auth0,jwt,expo" -o dist/marquee-build-auth.svg
+
+          echo "Generating Marquee 8 (AI & ML)..."
+          curl -s -f "${BASE_URL}/api/tech-badge-marquee?techs=pytorch,numpy,pandas,openai_sdk,v0" -o dist/marquee-ai-ml.svg
+
+          echo "Generating Marquee 9 (Testing)..."
+          curl -s -f "${BASE_URL}/api/tech-badge-marquee?techs=playwright,puppeteer" -o dist/marquee-testing.svg
+
+          echo "Generating Marquee 10 (Languages & Scripting)..."
+          curl -s -f "${BASE_URL}/api/tech-badge-marquee?techs=javascript,typescript,python,html5,css3,sql,json,yaml,xml,terraform,bash,zsh,powershell,markdown,c,cpp" -o dist/marquee-languages.svg
+
+          echo "Generating GitHub Stats..."
+          curl -s -f "${BASE_URL}/api/stats?username=hisham-pp" -o dist/github-stats.svg
+
+          echo "Generating Top Languages (Treemap Icon)..."
+          curl -s -f "${BASE_URL}/api/top-langs?username=hisham-pp&type=treemap-icon" -o dist/top-langs.svg
+
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
