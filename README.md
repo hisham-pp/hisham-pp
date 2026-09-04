@@ -43,16 +43,6 @@ I believe in understanding how systems work under the hood, rather than just mak
   <img src="https://readme-stats-theta-sepia.vercel.app/api/tech-badge-marquee?techs=javascript,typescript,python,html5,css3,sql,json,yaml,xml,terraform,bash,zsh,powershell,markdown,c,cpp" alt="Languages and Scripting Tech Stack Marquee" width="850" />
 </p>
 
-
-<br/>
-
-<!-- Architecture Diagram Placeholder -->
-<div align="center">
-  <img src="./assets/architecture.jpg" alt="Conceptual Stack Architecture" width="65%" />
-</div>
-
-<br/>
-
 ---
 
 ### ⚙️ What I Work On
