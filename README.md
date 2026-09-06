@@ -104,7 +104,5 @@ I believe in understanding how systems work under the hood, rather than just mak
 <br/>
 
 <div align="center">
-  <p><i>Design scalable architectures. Master the primitives. Optimize relentlessly.</i></p>
-  <br/>
-  <img src="https://img.shields.io/github/last-commit/hisham-pp/hisham-pp?label=Last%20Updated&style=flat-square&color=58A6FF&logo=github" alt="Last Updated" />
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/quote?quote=Design%20scalable%20architectures.%20Master%20the%20primitives.%20Optimize%20relentlessly.&username=hisham-pp&repo=hisham-pp" alt="Developer Quote & Last Updated" width="100%" />
 </div>
