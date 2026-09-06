@@ -99,7 +99,17 @@ I believe in understanding how systems work under the hood, rather than just mak
 
 ### 📬 Connect
 
-[GitHub](https://github.com/hisham-pp) • [LinkedIn](https://linkedin.com/in/hishampp) • [Email](mailto:hishammuhammed.in@gmail.com)
+<p align="left">
+  <a href="https://github.com/hisham-pp">
+    <img src="https://readme-stats-theta-sepia.vercel.app/api/badge?name=github" alt="GitHub" />
+  </a>
+  <a href="https://linkedin.com/in/hishampp">
+    <img src="https://readme-stats-theta-sepia.vercel.app/api/badge?name=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="mailto:hishammuhammed.in@gmail.com">
+    <img src="https://readme-stats-theta-sepia.vercel.app/api/badge?name=gmail" alt="Email" />
+  </a>
+</p>
 
 <br/>
 
