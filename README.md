@@ -104,5 +104,7 @@ I believe in understanding how systems work under the hood, rather than just mak
 <br/>
 
 <div align="center">
-  <img src="https://readme-stats-theta-sepia.vercel.app/api/quote?quote=Design%20scalable%20architectures.%20Master%20the%20primitives.%20Optimize%20relentlessly.&username=hisham-pp&repo=hisham-pp" alt="Developer Quote & Last Updated" width="100%" />
+  <p><i>Design scalable architectures. Master the primitives. Optimize relentlessly.</i></p>
+  <br/>
+  <img src="https://readme-stats-theta-sepia.vercel.app/api/last-updated?username=hisham-pp&repo=hisham-pp" alt="Last Updated" />
 </div>
