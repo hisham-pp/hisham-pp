@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="24" viewBox="0 0 850 24">
+      <style>
+        .marquee-content {
+          animation: scroll 30s linear infinite;
+        }
+        @keyframes scroll {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-431px); }
+        }
+        /* Pause animation on hover */
+        svg:hover .marquee-content {
+          animation-play-state: paused;
+        }
+      </style>
+      
+      <!-- Gradient masks to create fade out on edges -->
+      <defs>
+        
+        <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="transparent" />
+          <stop offset="5%" stop-color="white" />
+          <stop offset="95%" stop-color="white" />
+          <stop offset="100%" stop-color="transparent" />
+        </linearGradient>
+        <mask id="fadeMask">
+          <rect x="0" y="0" width="850" height="24" fill="url(#fade)" />
+        </mask>
+      </defs>
+
+      <g mask="url(#fadeMask)">
+        <g class="marquee-content">
+          
+      <g transform="translate(0, 2)">
+        <svg width="85" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85 20" role="img" aria-label="PyTorch">
+  <title>PyTorch</title>
+  
+  <rect width="85" height="20" fill="#EE4C2C" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>PyTorch</title><path d="M12.005 0L4.952 7.053a9.865 9.865 0 000 14.022 9.866 9.866 0 0014.022 0c3.984-3.9 3.986-10.205.085-14.023l-1.744 1.743c2.904 2.905 2.904 7.634 0 10.538s-7.634 2.904-10.538 0-2.904-7.634 0-10.538l4.647-4.646.582-.665zm3.568 3.899a1.327 1.327 0 00-1.327 1.327 1.327 1.327 0 001.327 1.328A1.327 1.327 0 0016.9 5.226 1.327 1.327 0 0015.573 3.9z"/></svg></g>
+    <text x="515" y="140" transform="scale(.1)" font-weight="bold">PyTorch</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(95, 2)">
+        <svg width="70" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 20" role="img" aria-label="NumPy">
+  <title>NumPy</title>
+  
+  <rect width="70" height="20" fill="#013243" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>NumPy</title><path d="M10.315 4.876L6.3048 2.8517l-4.401 2.1965 4.1186 2.0683zm1.8381.9277l4.2045 2.1223-4.3622 2.1906-4.125-2.0718zm5.6153-2.9213l4.3193 2.1658-3.863 1.9402-4.2131-2.1252zm-1.859-.9329L12.021 0 8.1742 1.9193l4.0068 2.0208zm-3.0401 16.7443V24l4.7107-2.3507-.0053-5.3085zm4.7037-4.2057l-.0052-5.2528-4.6985 2.3356v5.2546zm5.6553-.9845v5.327l-4.0178 2.0052-.0029-5.3028zm0-1.8626V6.4214l-4.0253 2.001.0034 5.2633zM11.2062 11.571L8.0333 9.9756v6.895s-3.8804-8.2564-4.2399-8.998c-.0463-.0957-.2371-.2007-.2858-.2262C2.8118 7.2812.773 6.2485.773 6.2485V18.43l2.8204 1.5076v-6.3674s3.8392 7.3775 3.878 7.458c.0389.0807.4245.8582.8362 1.1314.5485.363 2.8992 1.7766 2.8992 1.7766z"/></svg></g>
+    <text x="440" y="140" transform="scale(.1)" font-weight="bold">NumPy</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(175, 2)">
+        <svg width="76" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 20" role="img" aria-label="Pandas">
+  <title>Pandas</title>
+  
+  <rect width="76" height="20" fill="#150458" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M10 3H7v7h3V3zm7 0h-3v7h3V3zM10 14H7v7h3v-7zm7 0h-3v7h3v-7zm-4-5h-2v2h2V9zm0 6h-2v2h2v-2zm-3-3H4v2h6v-2zm10 0h-6v2h6v-2z"/></svg></g>
+    <text x="470" y="140" transform="scale(.1)" font-weight="bold">Pandas</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(261, 2)">
+        <svg width="105" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105 20" role="img" aria-label="OpenAI SDK">
+  <title>OpenAI SDK</title>
+  
+  <rect width="105" height="20" fill="#412991" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997Z"/></svg></g>
+    <text x="615" y="140" transform="scale(.1)" font-weight="bold">OpenAI SDK</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(376, 2)">
+        <svg width="45" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 20" role="img" aria-label="v0">
+  <title>v0</title>
+  
+  <rect width="45" height="20" fill="#000000" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="16" fill="white">v0</text>
+</svg></g>
+    <text x="315" y="140" transform="scale(.1)" font-weight="bold">v0</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(431, 2)">
+        <svg width="85" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85 20" role="img" aria-label="PyTorch">
+  <title>PyTorch</title>
+  
+  <rect width="85" height="20" fill="#EE4C2C" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>PyTorch</title><path d="M12.005 0L4.952 7.053a9.865 9.865 0 000 14.022 9.866 9.866 0 0014.022 0c3.984-3.9 3.986-10.205.085-14.023l-1.744 1.743c2.904 2.905 2.904 7.634 0 10.538s-7.634 2.904-10.538 0-2.904-7.634 0-10.538l4.647-4.646.582-.665zm3.568 3.899a1.327 1.327 0 00-1.327 1.327 1.327 1.327 0 001.327 1.328A1.327 1.327 0 0016.9 5.226 1.327 1.327 0 0015.573 3.9z"/></svg></g>
+    <text x="515" y="140" transform="scale(.1)" font-weight="bold">PyTorch</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(526, 2)">
+        <svg width="70" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 20" role="img" aria-label="NumPy">
+  <title>NumPy</title>
+  
+  <rect width="70" height="20" fill="#013243" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>NumPy</title><path d="M10.315 4.876L6.3048 2.8517l-4.401 2.1965 4.1186 2.0683zm1.8381.9277l4.2045 2.1223-4.3622 2.1906-4.125-2.0718zm5.6153-2.9213l4.3193 2.1658-3.863 1.9402-4.2131-2.1252zm-1.859-.9329L12.021 0 8.1742 1.9193l4.0068 2.0208zm-3.0401 16.7443V24l4.7107-2.3507-.0053-5.3085zm4.7037-4.2057l-.0052-5.2528-4.6985 2.3356v5.2546zm5.6553-.9845v5.327l-4.0178 2.0052-.0029-5.3028zm0-1.8626V6.4214l-4.0253 2.001.0034 5.2633zM11.2062 11.571L8.0333 9.9756v6.895s-3.8804-8.2564-4.2399-8.998c-.0463-.0957-.2371-.2007-.2858-.2262C2.8118 7.2812.773 6.2485.773 6.2485V18.43l2.8204 1.5076v-6.3674s3.8392 7.3775 3.878 7.458c.0389.0807.4245.8582.8362 1.1314.5485.363 2.8992 1.7766 2.8992 1.7766z"/></svg></g>
+    <text x="440" y="140" transform="scale(.1)" font-weight="bold">NumPy</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(606, 2)">
+        <svg width="76" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 20" role="img" aria-label="Pandas">
+  <title>Pandas</title>
+  
+  <rect width="76" height="20" fill="#150458" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M10 3H7v7h3V3zm7 0h-3v7h3V3zM10 14H7v7h3v-7zm7 0h-3v7h3v-7zm-4-5h-2v2h2V9zm0 6h-2v2h2v-2zm-3-3H4v2h6v-2zm10 0h-6v2h6v-2z"/></svg></g>
+    <text x="470" y="140" transform="scale(.1)" font-weight="bold">Pandas</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(692, 2)">
+        <svg width="105" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105 20" role="img" aria-label="OpenAI SDK">
+  <title>OpenAI SDK</title>
+  
+  <rect width="105" height="20" fill="#412991" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997Z"/></svg></g>
+    <text x="615" y="140" transform="scale(.1)" font-weight="bold">OpenAI SDK</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(807, 2)">
+        <svg width="45" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 20" role="img" aria-label="v0">
+  <title>v0</title>
+  
+  <rect width="45" height="20" fill="#000000" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="16" fill="white">v0</text>
+</svg></g>
+    <text x="315" y="140" transform="scale(.1)" font-weight="bold">v0</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(862, 2)">
+        <svg width="85" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85 20" role="img" aria-label="PyTorch">
+  <title>PyTorch</title>
+  
+  <rect width="85" height="20" fill="#EE4C2C" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>PyTorch</title><path d="M12.005 0L4.952 7.053a9.865 9.865 0 000 14.022 9.866 9.866 0 0014.022 0c3.984-3.9 3.986-10.205.085-14.023l-1.744 1.743c2.904 2.905 2.904 7.634 0 10.538s-7.634 2.904-10.538 0-2.904-7.634 0-10.538l4.647-4.646.582-.665zm3.568 3.899a1.327 1.327 0 00-1.327 1.327 1.327 1.327 0 001.327 1.328A1.327 1.327 0 0016.9 5.226 1.327 1.327 0 0015.573 3.9z"/></svg></g>
+    <text x="515" y="140" transform="scale(.1)" font-weight="bold">PyTorch</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(957, 2)">
+        <svg width="70" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 20" role="img" aria-label="NumPy">
+  <title>NumPy</title>
+  
+  <rect width="70" height="20" fill="#013243" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>NumPy</title><path d="M10.315 4.876L6.3048 2.8517l-4.401 2.1965 4.1186 2.0683zm1.8381.9277l4.2045 2.1223-4.3622 2.1906-4.125-2.0718zm5.6153-2.9213l4.3193 2.1658-3.863 1.9402-4.2131-2.1252zm-1.859-.9329L12.021 0 8.1742 1.9193l4.0068 2.0208zm-3.0401 16.7443V24l4.7107-2.3507-.0053-5.3085zm4.7037-4.2057l-.0052-5.2528-4.6985 2.3356v5.2546zm5.6553-.9845v5.327l-4.0178 2.0052-.0029-5.3028zm0-1.8626V6.4214l-4.0253 2.001.0034 5.2633zM11.2062 11.571L8.0333 9.9756v6.895s-3.8804-8.2564-4.2399-8.998c-.0463-.0957-.2371-.2007-.2858-.2262C2.8118 7.2812.773 6.2485.773 6.2485V18.43l2.8204 1.5076v-6.3674s3.8392 7.3775 3.878 7.458c.0389.0807.4245.8582.8362 1.1314.5485.363 2.8992 1.7766 2.8992 1.7766z"/></svg></g>
+    <text x="440" y="140" transform="scale(.1)" font-weight="bold">NumPy</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1037, 2)">
+        <svg width="76" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 20" role="img" aria-label="Pandas">
+  <title>Pandas</title>
+  
+  <rect width="76" height="20" fill="#150458" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M10 3H7v7h3V3zm7 0h-3v7h3V3zM10 14H7v7h3v-7zm7 0h-3v7h3v-7zm-4-5h-2v2h2V9zm0 6h-2v2h2v-2zm-3-3H4v2h6v-2zm10 0h-6v2h6v-2z"/></svg></g>
+    <text x="470" y="140" transform="scale(.1)" font-weight="bold">Pandas</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1123, 2)">
+        <svg width="105" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105 20" role="img" aria-label="OpenAI SDK">
+  <title>OpenAI SDK</title>
+  
+  <rect width="105" height="20" fill="#412991" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.872zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997Z"/></svg></g>
+    <text x="615" y="140" transform="scale(.1)" font-weight="bold">OpenAI SDK</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1238, 2)">
+        <svg width="45" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 20" role="img" aria-label="v0">
+  <title>v0</title>
+  
+  <rect width="45" height="20" fill="#000000" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="16" fill="white">v0</text>
+</svg></g>
+    <text x="315" y="140" transform="scale(.1)" font-weight="bold">v0</text>
+  </g>
+</svg>
+      </g>
+    
+        </g>
+      </g>
+    </svg>
