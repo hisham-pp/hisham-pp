@@ -1,0 +1,443 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="24" viewBox="0 0 850 24">
+      <style>
+        .marquee-content {
+          animation: scroll 30s linear infinite;
+        }
+        @keyframes scroll {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-1311px); }
+        }
+        /* Pause animation on hover */
+        svg:hover .marquee-content {
+          animation-play-state: paused;
+        }
+      </style>
+      
+      <!-- Gradient masks to create fade out on edges -->
+      <defs>
+        
+        <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="transparent" />
+          <stop offset="5%" stop-color="white" />
+          <stop offset="95%" stop-color="white" />
+          <stop offset="100%" stop-color="transparent" />
+        </linearGradient>
+        <mask id="fadeMask">
+          <rect x="0" y="0" width="850" height="24" fill="url(#fade)" />
+        </mask>
+      </defs>
+
+      <g mask="url(#fadeMask)">
+        <g class="marquee-content">
+          
+      <g transform="translate(0, 2)">
+        <svg width="103" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103 20" role="img" aria-label="JavaScript">
+  <title>JavaScript</title>
+  
+  <rect width="103" height="20" fill="#f7df1e" rx="3" />
+  <g fill="#000000" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+	<path d="M0 0h448v512H0z" fill="none" />
+	<path fill="#000000" d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7c0 43.6-25.6 63.5-62.9 63.5m85.8-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43" />
+</svg></g>
+    <text x="605" y="140" transform="scale(.1)" font-weight="bold">JavaScript</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(113, 2)">
+        <svg width="103" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103 20" role="img" aria-label="TypeScript">
+  <title>TypeScript</title>
+  
+  <rect width="103" height="20" fill="#3178c6" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="#ffffff" d="M19.24 3H4.76A1.76 1.76 0 0 0 3 4.76v14.48A1.76 1.76 0 0 0 4.76 21h14.48A1.76 1.76 0 0 0 21 19.24V4.76A1.76 1.76 0 0 0 19.24 3m-5.8 10h-2.25v6.44H9.4V13H7.15v-1.46h6.29zm5.8 5.28a1.7 1.7 0 0 1-.67.74a3 3 0 0 1-1 .39a6 6 0 0 1-1.2.12a7 7 0 0 1-1.23-.11a4.5 4.5 0 0 1-1-.33v-1.71l-.06-.06h.06v.07a3.4 3.4 0 0 0 1 .54a3.1 3.1 0 0 0 1.13.2a2.6 2.6 0 0 0 .6-.06a1.5 1.5 0 0 0 .42-.17a.75.75 0 0 0 .25-.25a.69.69 0 0 0-.06-.74a1.2 1.2 0 0 0-.35-.33a3 3 0 0 0-.53-.3l-.67-.28a3.6 3.6 0 0 1-1.37-1a2 2 0 0 1-.46-1.33a2.16 2.16 0 0 1 .24-1.06a2.1 2.1 0 0 1 .66-.71a2.9 2.9 0 0 1 1-.42a5 5 0 0 1 1.19-.13a7 7 0 0 1 1.09.07a4.5 4.5 0 0 1 .88.23v1.65a2.4 2.4 0 0 0-.42-.24a4 4 0 0 0-.49-.17a3 3 0 0 0-.49-.1a2.5 2.5 0 0 0-.46 0a2.3 2.3 0 0 0-.56.06a1.5 1.5 0 0 0-.43.16a.8.8 0 0 0-.26.25a.63.63 0 0 0-.09.33a.6.6 0 0 0 .1.35a1.2 1.2 0 0 0 .3.29a2.2 2.2 0 0 0 .46.28l.63.28a7 7 0 0 1 .84.42a2.7 2.7 0 0 1 .64.49a1.8 1.8 0 0 1 .42.63a2.5 2.5 0 0 1 .14.85a2.7 2.7 0 0 1-.25 1.08z" />
+</svg></g>
+    <text x="605" y="140" transform="scale(.1)" font-weight="bold">TypeScript</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(226, 2)">
+        <svg width="76" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 20" role="img" aria-label="Python">
+  <title>Python</title>
+  <defs><linearGradient id="py-bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1e415e"/><stop offset="100%" stop-color="#3776AB"/></linearGradient></defs>
+  <rect width="76" height="20" fill="url(#py-bg)" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#5A9FD4"/><stop offset="1" stop-color="#306998"/></linearGradient><linearGradient id="python-original-b" gradientUnits="userSpaceOnUse" x1="209.474" y1="1098.811" x2="173.62" y2="1149.537" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#FFD43B"/><stop offset="1" stop-color="#FFE873"/></linearGradient><path fill="url(#python-original-a)" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z" transform="translate(0 10.26)"/><path fill="url(#python-original-b)" d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z" transform="translate(0 10.26)"/><radialGradient id="python-original-c" cx="1825.678" cy="444.45" r="26.743" gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#B8B8B8" stop-opacity=".498"/><stop offset="1" stop-color="#7F7F7F" stop-opacity="0"/></radialGradient><path opacity=".444" fill="url(#python-original-c)" d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z"/></svg></g>
+    <text x="470" y="140" transform="scale(.1)" font-weight="bold">Python</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(312, 2)">
+        <svg width="71" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71 20" role="img" aria-label="HTML5">
+  <title>HTML5</title>
+  
+  <rect width="71" height="20" fill="#e34f26" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+	<path d="M0 0h16v16H0z" fill="none" />
+	<path fill="#ffffff" d="M.946 0L2.23 14.4L7.992 16l5.777-1.602L15.055 0zM12.26 4.71H5.502l.161 1.809H12.1l-.485 5.422l-3.623 1.004l-3.618-1.004l-.247-2.774H5.9l.126 1.41l1.967.53l.004-.001l1.968-.531l.204-2.29H4.048l-.476-5.341h8.847l-.158 1.766z" />
+</svg></g>
+    <text x="445" y="140" transform="scale(.1)" font-weight="bold">HTML5</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(393, 2)">
+        <svg width="63" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 20" role="img" aria-label="CSS3">
+  <title>CSS3</title>
+  
+  <rect width="63" height="20" fill="#1572b6" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+	<path d="M0 0h448v512H0z" fill="none" />
+	<path fill="#ffffff" d="M376.3 32H0v376.3c0 19 7.6 37.2 21 50.7s31.7 21 50.7 21h304.6c19 0 37.2-7.6 50.7-21s21-31.7 21-50.7V103.7c0-19-7.6-37.2-21-50.7s-31.7-21-50.7-21m-43.9 399.4q-11.55-12.75-12-36.6h31.3c.2 14.1 5.1 21.1 14.8 21.1c4.9 0 8.4-1.6 10.5-4.7c2-3.1 3-8 3-14.8c0-5.4-1.3-9.9-4-13.4c-3.5-4.2-8.1-7.5-13.2-9.5l-11.6-5.5c-10.3-4.9-17.8-10.8-22.5-17.6c-4.5-6.8-6.7-16.3-6.7-28.4c0-13.6 4-24.6 11.8-33.1c8.1-8.5 19.1-12.7 33.2-12.7c13.6 0 24.1 4.2 31.5 12.5c7.5 8.4 11.5 20.3 11.8 35.9h-30.1c.2-5.1-.9-10.2-3-14.8c-1.7-3.4-5-5.1-10-5.1c-8.8 0-13.2 5.2-13.2 15.7c0 5.3 1.1 9.4 3.2 12.6c3.1 3.5 7 6.2 11.4 7.8l11.1 4.9c11.5 5.3 19.7 11.7 24.8 19.4s7.6 18 7.6 31c0 15.5-4 27.4-12.3 35.7c-8.2 8.3-19.5 12.5-34.1 12.5s-25.6-4.2-33.4-12.7zm-101 0q-11.55-12.75-12-36.6h31.3c.2 14.1 5.1 21.1 14.8 21.1c4.9 0 8.4-1.6 10.4-4.7s3-8 3-14.8c0-5.4-1.3-9.9-3.9-13.4c-3.5-4.2-8.1-7.5-13.2-9.5l-11.6-5.5c-10.3-4.9-17.8-10.8-22.5-17.6c-4.5-6.8-6.7-16.3-6.7-28.4c0-13.6 4-24.6 11.8-33.1c8.1-8.5 19.1-12.7 33.2-12.7c13.6 0 24.1 4.2 31.4 12.5c7.6 8.4 11.5 20.3 11.9 35.9h-30.1c.2-5.1-.9-10.2-3-14.8c-1.7-3.4-5-5.1-10-5.1c-8.8 0-13.2 5.2-13.2 15.7c0 5.3 1.1 9.4 3.2 12.6c3.1 3.5 7 6.2 11.4 7.8l11.1 4.9c11.5 5.3 19.7 11.7 24.8 19.4s7.6 18 7.6 31q0 23.25-12.3 35.7c-12.3 12.45-19.5 12.5-34.1 12.5s-25.6-4.2-33.4-12.7zm-105.6 1.1c-8.4-7.7-12.5-19.2-12.5-34.5v-75.4c0-15.2 4.4-26.7 13.2-34.6c8.9-7.8 20.7-11.8 35.2-11.8c14.1 0 25.2 4 33.4 12c8.3 8 12.5 20 12.5 35.9v6h-33.1v-5.8c0-6.1-1.3-10.7-4-13.6c-1.1-1.5-2.6-2.7-4.3-3.5s-3.5-1.2-5.4-1.1c-5.4 0-9.2 1.8-11.4 5.6c-2.3 5.2-3.3 10.8-3 16.4v65.5c0 13.7 4.8 20.6 14.4 20.8q6.75 0 10.2-4.8c2.5-4.1 3.7-8.8 3.5-13.6v-4.9h33.1v5.1c0 10.6-2.1 19.5-6.2 26.6c-4 6.9-9.9 12.5-17.1 16c-7.7 3.7-16.1 5.5-24.6 5.3c-14.2 0-25.5-3.9-33.8-11.6z" />
+</svg></g>
+    <text x="405" y="140" transform="scale(.1)" font-weight="bold">CSS3</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(466, 2)">
+        <svg width="56" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 20" role="img" aria-label="SQL">
+  <title>SQL</title>
+  
+  <rect width="56" height="20" fill="#4479A1" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"><title>MySQL</title><path d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z"/></svg></g>
+    <text x="370" y="140" transform="scale(.1)" font-weight="bold">SQL</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(532, 2)">
+        <svg width="64" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 20" role="img" aria-label="JSON">
+  <title>JSON</title>
+  
+  <rect width="64" height="20" fill="#000000" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"><title>JSON</title><path d="M12.043 23.968c.479-.004.953-.029 1.426-.094a11.805 11.805 0 003.146-.863 12.404 12.404 0 003.793-2.542 11.977 11.977 0 002.44-3.427 11.794 11.794 0 001.02-3.476c.149-1.16.135-2.346-.045-3.499a11.96 11.96 0 00-.793-2.788 11.197 11.197 0 00-.854-1.617c-1.168-1.837-2.861-3.314-4.81-4.3a12.835 12.835 0 00-2.172-.87h-.005c.119.063.24.132.345.201.12.074.239.146.351.225a8.93 8.93 0 011.559 1.33c1.063 1.145 1.797 2.548 2.218 4.041.284.982.434 1.998.495 3.017.044.743.044 1.491-.047 2.229-.149 1.27-.554 2.51-1.228 3.596a7.475 7.475 0 01-1.903 2.084c-1.244.928-2.877 1.482-4.436 1.114a3.916 3.916 0 01-.748-.258 4.692 4.692 0 01-.779-.45 6.08 6.08 0 01-1.244-1.105 6.507 6.507 0 01-1.049-1.747 7.366 7.366 0 01-.494-2.54c-.03-1.273.225-2.553.854-3.67a6.43 6.43 0 011.663-1.918c.225-.178.464-.333.704-.479l.016-.007a5.121 5.121 0 00-1.441-.12 4.963 4.963 0 00-1.228.24c-.359.12-.704.27-1.019.45a6.146 6.146 0 00-.733.494c-.211.18-.42.36-.615.555-1.123 1.153-1.768 2.682-2.022 4.256-.15.973-.15 1.96-.091 2.95.105 1.395.391 2.787.945 4.062a8.518 8.518 0 001.348 2.173 8.14 8.14 0 003.132 2.23 7.934 7.934 0 002.113.54c.074.015.149.015.209.015zm-2.934-.398a4.102 4.102 0 01-.45-.228 8.5 8.5 0 01-2.038-1.534c-1.094-1.137-1.827-2.566-2.247-4.08a15.184 15.184 0 01-.495-3.172 12.14 12.14 0 01.046-2.082c.135-1.257.495-2.501 1.124-3.58a6.889 6.889 0 011.783-2.053 6.23 6.23 0 011.633-.9 5.363 5.363 0 013.522-.045c.029 0 .029 0 .045.03.015.015.045.015.06.03.045.016.104.045.165.074.239.12.479.271.704.42a6.294 6.294 0 012.097 2.502c.42.914.615 1.934.631 2.938.014 1.079-.18 2.157-.645 3.146a6.42 6.42 0 01-2.638 2.832c.09.03.18.045.271.075.225.044.449.074.688.074 1.468.045 2.892-.66 3.94-1.647.195-.18.375-.375.54-.585.225-.27.435-.54.614-.823.239-.375.435-.75.614-1.154a8.112 8.112 0 00.509-1.664c.196-1.004.211-2.022.149-3.026-.135-2.022-.673-4.045-1.842-5.724a9.054 9.054 0 00-.555-.719 9.868 9.868 0 00-1.063-1.034 8.477 8.477 0 00-1.363-.915 9.927 9.927 0 00-1.692-.598l-.3-.06c-.209-.03-.42-.044-.634-.06a8.453 8.453 0 00-1.015.016c-.704.045-1.412.16-2.112.337C5.799 1.227 2.863 3.566 1.3 6.67A11.834 11.834 0 00.238 9.801a11.81 11.81 0 00-.104 3.775c.12 1.02.374 2.023.778 2.977.227.57.511 1.124.825 1.648 1.094 1.783 2.683 3.236 4.51 4.24.688.39 1.408.69 2.157.944.226.074.45.15.689.21z"/></svg></g>
+    <text x="410" y="140" transform="scale(.1)" font-weight="bold">JSON</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(606, 2)">
+        <svg width="64" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 20" role="img" aria-label="YAML">
+  <title>YAML</title>
+  
+  <rect width="64" height="20" fill="#CB171E" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"><title>YAML</title><path d="m0 .97 4.111 6.453v4.09h2.638v-4.09L11.053.969H8.214L5.58 5.125 2.965.969Zm12.093.024-4.47 10.544h2.114l.97-2.345h4.775l.804 2.345h2.26L14.255.994Zm1.133 2.225 1.463 3.87h-3.096zm3.06 9.475v10.29H24v-2.199h-5.454v-8.091zm-12.175.002v10.335h2.217v-7.129l2.32 4.792h1.746l2.4-4.96v7.295h2.127V12.696h-2.904L9.44 17.37l-2.455-4.674Z"/></svg></g>
+    <text x="410" y="140" transform="scale(.1)" font-weight="bold">YAML</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(680, 2)">
+        <svg width="56" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 20" role="img" aria-label="XML">
+  <title>XML</title>
+  
+  <rect width="56" height="20" fill="#00608C" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4zm-4.1 1.8l1.9.4 2.2-9.6-1.9-.4-2.2 9.6z"/></svg></g>
+    <text x="370" y="140" transform="scale(.1)" font-weight="bold">XML</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(746, 2)">
+        <svg width="99" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99 20" role="img" aria-label="Terraform">
+  <title>Terraform</title>
+  
+  <rect width="99" height="20" fill="#844FBA" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><title>Terraform</title><path d="M1.44 0v7.575l6.561 3.79V3.787zm21.12 4.227l-6.561 3.791v7.574l6.56-3.787zM8.72 4.23v7.575l6.561 3.787V8.018zm0 8.405v7.575L15.28 24v-7.578z"/></svg></g>
+    <text x="585" y="140" transform="scale(.1)" font-weight="bold">Terraform</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(855, 2)">
+        <svg width="61" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 20" role="img" aria-label="Bash">
+  <title>Bash</title>
+  
+  <rect width="61" height="20" fill="#4EAA25" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GNU Bash</title><path fill="#ffffff" d="M21.038,4.9l-7.577-4.498C13.009,0.134,12.505,0,12,0c-0.505,0-1.009,0.134-1.462,0.403L2.961,4.9 C2.057,5.437,1.5,6.429,1.5,7.503v8.995c0,1.073,0.557,2.066,1.462,2.603l7.577,4.497C10.991,23.866,11.495,24,12,24 c0.505,0,1.009-0.134,1.461-0.402l7.577-4.497c0.904-0.537,1.462-1.529,1.462-2.603V7.503C22.5,6.429,21.943,5.437,21.038,4.9z M15.17,18.946l0.013,0.646c0.001,0.078-0.05,0.167-0.111,0.198l-0.383,0.22c-0.061,0.031-0.111-0.007-0.112-0.085L14.57,19.29 c-0.328,0.136-0.66,0.169-0.872,0.084c-0.04-0.016-0.057-0.075-0.041-0.142l0.139-0.584c0.011-0.046,0.036-0.092,0.069-0.121 c0.012-0.011,0.024-0.02,0.036-0.026c0.022-0.011,0.043-0.014,0.062-0.006c0.229,0.077,0.521,0.041,0.802-0.101 c0.357-0.181,0.596-0.545,0.592-0.907c-0.003-0.328-0.181-0.465-0.613-0.468c-0.55,0.001-1.064-0.107-1.072-0.917 c-0.007-0.667,0.34-1.361,0.889-1.8l-0.007-0.652c-0.001-0.08,0.048-0.168,0.111-0.2l0.37-0.236 c0.061-0.031,0.111,0.007,0.112,0.087l0.006,0.653c0.273-0.109,0.511-0.138,0.726-0.088c0.047,0.012,0.067,0.076,0.048,0.151 l-0.144,0.578c-0.011,0.044-0.036,0.088-0.065,0.116c-0.012,0.012-0.025,0.021-0.038,0.028c-0.019,0.01-0.038,0.013-0.057,0.009 c-0.098-0.022-0.332-0.073-0.699,0.113c-0.385,0.195-0.52,0.53-0.517,0.778c0.003,0.297,0.155,0.387,0.681,0.396 c0.7,0.012,1.003,0.318,1.01,1.023C16.105,17.747,15.736,18.491,15.17,18.946z M19.143,17.859c0,0.06-0.008,0.116-0.058,0.145 l-1.916,1.164c-0.05,0.029-0.09,0.004-0.09-0.056v-0.494c0-0.06,0.037-0.093,0.087-0.122l1.887-1.129 c0.05-0.029,0.09-0.004,0.09,0.056V17.859z M20.459,6.797l-7.168,4.427c-0.894,0.523-1.553,1.109-1.553,2.187v8.833 c0,0.645,0.26,1.063,0.66,1.184c-0.131,0.023-0.264,0.039-0.398,0.039c-0.42,0-0.833-0.114-1.197-0.33L3.226,18.64 c-0.741-0.44-1.201-1.261-1.201-2.142V7.503c0-0.881,0.46-1.702,1.201-2.142l7.577-4.498c0.363-0.216,0.777-0.33,1.197-0.33 c0.419,0,0.833,0.114,1.197,0.33l7.577,4.498c0.624,0.371,1.046,1.013,1.164,1.732C21.686,6.557,21.12,6.411,20.459,6.797z"/></svg></g>
+    <text x="395" y="140" transform="scale(.1)" font-weight="bold">Bash</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(926, 2)">
+        <svg width="54" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 20" role="img" aria-label="Zsh">
+  <title>Zsh</title>
+  
+  <rect width="54" height="20" fill="#f15a24" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"><title>Zsh</title><path d="M11.415 5.038a.58.58 0 0 0-.543.197L.135 18.021a.58.58 0 0 0 .071.814.58.58 0 0 0 .815-.07L11.757 5.979a.58.58 0 0 0-.07-.815.6.6 0 0 0-.272-.126m-8.113.317a3.133 3.133 0 0 0-3.12 3.12 3.13 3.13 0 0 0 3.12 3.119A3.133 3.133 0 0 0 6.42 8.475a3.13 3.13 0 0 0-3.119-3.119m0 1.806a1.3 1.3 0 0 1 1.314 1.313 1.3 1.3 0 0 1-1.314 1.312A1.3 1.3 0 0 1 1.99 8.475a1.3 1.3 0 0 1 1.312-1.314m5.253 5.253a3.13 3.13 0 0 0-3.119 3.119 3.13 3.13 0 0 0 3.12 3.118 3.133 3.133 0 0 0 3.118-3.12 3.133 3.133 0 0 0-3.119-3.118m0 1.805a1.3 1.3 0 0 1 1.313 1.314c0 .735-.577 1.312-1.312 1.312a1.3 1.3 0 0 1-1.314-1.312 1.3 1.3 0 0 1 1.313-1.314m7.201 3.276a.58.58 0 0 0-.578.578.58.58 0 0 0 .578.578h7.666a.58.58 0 0 0 .579-.578.58.58 0 0 0-.579-.578Z"/></svg></g>
+    <text x="360" y="140" transform="scale(.1)" font-weight="bold">Zsh</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(990, 2)">
+        <svg width="98" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 20" role="img" aria-label="PowerShell">
+  <title>PowerShell</title>
+  
+  <rect width="98" height="20" fill="#5391FE" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V6h16v12zM6 9.41L10.59 14 6 18.41 7.41 19.82 13.41 14 7.41 8.59 6 9.41zM14 17h4v2h-4z"/></svg></g>
+    <text x="580" y="140" transform="scale(.1)" font-weight="bold">PowerShell</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1098, 2)">
+        <svg width="91" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 20" role="img" aria-label="Markdown">
+  <title>Markdown</title>
+  
+  <rect width="91" height="20" fill="#000000" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Markdown</title><path d="M22.27 19.385H1.73A1.73 1.73 0 010 17.655V6.345a1.73 1.73 0 011.73-1.73h20.54A1.73 1.73 0 0124 6.345v11.308a1.73 1.73 0 01-1.73 1.731zM5.769 15.923v-4.5l2.308 2.885 2.307-2.885v4.5h2.308V8.078h-2.308l-2.307 2.885-2.308-2.885H3.46v7.847zM21.232 12h-2.309V8.077h-2.307V12h-2.308l3.461 4.039z"/></svg></g>
+    <text x="545" y="140" transform="scale(.1)" font-weight="bold">Markdown</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1199, 2)">
+        <svg width="39" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 20" role="img" aria-label="C">
+  <title>C</title>
+  
+  <rect width="39" height="20" fill="#A8B9CC" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>C</title><path d="M16.5921 9.1962s-.354-3.298-3.627-3.39c-3.2741-.09-4.9552 2.474-4.9552 6.14 0 3.6651 1.858 6.5972 5.0451 6.5972 3.184 0 3.5381-3.665 3.5381-3.665l6.1041.365s.36 3.31-2.196 5.836c-2.552 2.5241-5.6901 2.9371-7.8762 2.9201-2.19-.017-5.2261.034-8.1602-2.97-2.938-3.0101-3.436-5.9302-3.436-8.8002 0-2.8701.556-6.6702 4.047-9.5502C7.444.72 9.849 0 12.254 0c10.0422 0 10.7172 9.2602 10.7172 9.2602z"/></svg></g>
+    <text x="285" y="140" transform="scale(.1)" font-weight="bold">C</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1248, 2)">
+        <svg width="53" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 20" role="img" aria-label="C++">
+  <title>C++</title>
+  
+  <rect width="53" height="20" fill="#00599C" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>C++</title><path d="M22.394 6c-.167-.29-.398-.543-.652-.69L12.926.22c-.509-.294-1.34-.294-1.848 0L2.26 5.31c-.508.293-.923 1.013-.923 1.6v10.18c0 .294.104.62.271.91.167.29.398.543.652.69l8.816 5.09c.508.293 1.34.293 1.848 0l8.816-5.09c.254-.147.485-.4.652-.69.167-.29.27-.616.27-.91V6.91c.003-.294-.1-.62-.268-.91zM12 19.11c-3.92 0-7.109-3.19-7.109-7.11 0-3.92 3.19-7.11 7.11-7.11a7.133 7.133 0 016.156 3.553l-3.076 1.78a3.567 3.567 0 00-3.08-1.78A3.56 3.56 0 008.444 12 3.56 3.56 0 0012 15.555a3.57 3.57 0 003.08-1.778l3.078 1.78A7.135 7.135 0 0112 19.11zm7.11-6.715h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79zm2.962 0h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79z"/></svg></g>
+    <text x="355" y="140" transform="scale(.1)" font-weight="bold">C++</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1311, 2)">
+        <svg width="103" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103 20" role="img" aria-label="JavaScript">
+  <title>JavaScript</title>
+  
+  <rect width="103" height="20" fill="#f7df1e" rx="3" />
+  <g fill="#000000" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+	<path d="M0 0h448v512H0z" fill="none" />
+	<path fill="#000000" d="M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64zM180.9 444.9c-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6c13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7c0 43.6-25.6 63.5-62.9 63.5m85.8-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6c17.4 0 28.6-8.7 28.6-20.8c0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5c0-31.6 24.1-55.6 61.6-55.6c26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18c-12.3 0-20.1 7.8-20.1 18c0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2c0 37.8-29.8 58.6-69.7 58.6c-39.1 0-64.4-18.6-76.7-43" />
+</svg></g>
+    <text x="605" y="140" transform="scale(.1)" font-weight="bold">JavaScript</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1424, 2)">
+        <svg width="103" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103 20" role="img" aria-label="TypeScript">
+  <title>TypeScript</title>
+  
+  <rect width="103" height="20" fill="#3178c6" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<path d="M0 0h24v24H0z" fill="none" />
+	<path fill="#ffffff" d="M19.24 3H4.76A1.76 1.76 0 0 0 3 4.76v14.48A1.76 1.76 0 0 0 4.76 21h14.48A1.76 1.76 0 0 0 21 19.24V4.76A1.76 1.76 0 0 0 19.24 3m-5.8 10h-2.25v6.44H9.4V13H7.15v-1.46h6.29zm5.8 5.28a1.7 1.7 0 0 1-.67.74a3 3 0 0 1-1 .39a6 6 0 0 1-1.2.12a7 7 0 0 1-1.23-.11a4.5 4.5 0 0 1-1-.33v-1.71l-.06-.06h.06v.07a3.4 3.4 0 0 0 1 .54a3.1 3.1 0 0 0 1.13.2a2.6 2.6 0 0 0 .6-.06a1.5 1.5 0 0 0 .42-.17a.75.75 0 0 0 .25-.25a.69.69 0 0 0-.06-.74a1.2 1.2 0 0 0-.35-.33a3 3 0 0 0-.53-.3l-.67-.28a3.6 3.6 0 0 1-1.37-1a2 2 0 0 1-.46-1.33a2.16 2.16 0 0 1 .24-1.06a2.1 2.1 0 0 1 .66-.71a2.9 2.9 0 0 1 1-.42a5 5 0 0 1 1.19-.13a7 7 0 0 1 1.09.07a4.5 4.5 0 0 1 .88.23v1.65a2.4 2.4 0 0 0-.42-.24a4 4 0 0 0-.49-.17a3 3 0 0 0-.49-.1a2.5 2.5 0 0 0-.46 0a2.3 2.3 0 0 0-.56.06a1.5 1.5 0 0 0-.43.16a.8.8 0 0 0-.26.25a.63.63 0 0 0-.09.33a.6.6 0 0 0 .1.35a1.2 1.2 0 0 0 .3.29a2.2 2.2 0 0 0 .46.28l.63.28a7 7 0 0 1 .84.42a2.7 2.7 0 0 1 .64.49a1.8 1.8 0 0 1 .42.63a2.5 2.5 0 0 1 .14.85a2.7 2.7 0 0 1-.25 1.08z" />
+</svg></g>
+    <text x="605" y="140" transform="scale(.1)" font-weight="bold">TypeScript</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1537, 2)">
+        <svg width="76" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 20" role="img" aria-label="Python">
+  <title>Python</title>
+  <defs><linearGradient id="py-bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1e415e"/><stop offset="100%" stop-color="#3776AB"/></linearGradient></defs>
+  <rect width="76" height="20" fill="url(#py-bg)" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#5A9FD4"/><stop offset="1" stop-color="#306998"/></linearGradient><linearGradient id="python-original-b" gradientUnits="userSpaceOnUse" x1="209.474" y1="1098.811" x2="173.62" y2="1149.537" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#FFD43B"/><stop offset="1" stop-color="#FFE873"/></linearGradient><path fill="url(#python-original-a)" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z" transform="translate(0 10.26)"/><path fill="url(#python-original-b)" d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z" transform="translate(0 10.26)"/><radialGradient id="python-original-c" cx="1825.678" cy="444.45" r="26.743" gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#B8B8B8" stop-opacity=".498"/><stop offset="1" stop-color="#7F7F7F" stop-opacity="0"/></radialGradient><path opacity=".444" fill="url(#python-original-c)" d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z"/></svg></g>
+    <text x="470" y="140" transform="scale(.1)" font-weight="bold">Python</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1623, 2)">
+        <svg width="71" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71 20" role="img" aria-label="HTML5">
+  <title>HTML5</title>
+  
+  <rect width="71" height="20" fill="#e34f26" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+	<path d="M0 0h16v16H0z" fill="none" />
+	<path fill="#ffffff" d="M.946 0L2.23 14.4L7.992 16l5.777-1.602L15.055 0zM12.26 4.71H5.502l.161 1.809H12.1l-.485 5.422l-3.623 1.004l-3.618-1.004l-.247-2.774H5.9l.126 1.41l1.967.53l.004-.001l1.968-.531l.204-2.29H4.048l-.476-5.341h8.847l-.158 1.766z" />
+</svg></g>
+    <text x="445" y="140" transform="scale(.1)" font-weight="bold">HTML5</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1704, 2)">
+        <svg width="63" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 20" role="img" aria-label="CSS3">
+  <title>CSS3</title>
+  
+  <rect width="63" height="20" fill="#1572b6" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+	<path d="M0 0h448v512H0z" fill="none" />
+	<path fill="#ffffff" d="M376.3 32H0v376.3c0 19 7.6 37.2 21 50.7s31.7 21 50.7 21h304.6c19 0 37.2-7.6 50.7-21s21-31.7 21-50.7V103.7c0-19-7.6-37.2-21-50.7s-31.7-21-50.7-21m-43.9 399.4q-11.55-12.75-12-36.6h31.3c.2 14.1 5.1 21.1 14.8 21.1c4.9 0 8.4-1.6 10.5-4.7c2-3.1 3-8 3-14.8c0-5.4-1.3-9.9-4-13.4c-3.5-4.2-8.1-7.5-13.2-9.5l-11.6-5.5c-10.3-4.9-17.8-10.8-22.5-17.6c-4.5-6.8-6.7-16.3-6.7-28.4c0-13.6 4-24.6 11.8-33.1c8.1-8.5 19.1-12.7 33.2-12.7c13.6 0 24.1 4.2 31.5 12.5c7.5 8.4 11.5 20.3 11.8 35.9h-30.1c.2-5.1-.9-10.2-3-14.8c-1.7-3.4-5-5.1-10-5.1c-8.8 0-13.2 5.2-13.2 15.7c0 5.3 1.1 9.4 3.2 12.6c3.1 3.5 7 6.2 11.4 7.8l11.1 4.9c11.5 5.3 19.7 11.7 24.8 19.4s7.6 18 7.6 31c0 15.5-4 27.4-12.3 35.7c-8.2 8.3-19.5 12.5-34.1 12.5s-25.6-4.2-33.4-12.7zm-101 0q-11.55-12.75-12-36.6h31.3c.2 14.1 5.1 21.1 14.8 21.1c4.9 0 8.4-1.6 10.4-4.7s3-8 3-14.8c0-5.4-1.3-9.9-3.9-13.4c-3.5-4.2-8.1-7.5-13.2-9.5l-11.6-5.5c-10.3-4.9-17.8-10.8-22.5-17.6c-4.5-6.8-6.7-16.3-6.7-28.4c0-13.6 4-24.6 11.8-33.1c8.1-8.5 19.1-12.7 33.2-12.7c13.6 0 24.1 4.2 31.4 12.5c7.6 8.4 11.5 20.3 11.9 35.9h-30.1c.2-5.1-.9-10.2-3-14.8c-1.7-3.4-5-5.1-10-5.1c-8.8 0-13.2 5.2-13.2 15.7c0 5.3 1.1 9.4 3.2 12.6c3.1 3.5 7 6.2 11.4 7.8l11.1 4.9c11.5 5.3 19.7 11.7 24.8 19.4s7.6 18 7.6 31q0 23.25-12.3 35.7c-12.3 12.45-19.5 12.5-34.1 12.5s-25.6-4.2-33.4-12.7zm-105.6 1.1c-8.4-7.7-12.5-19.2-12.5-34.5v-75.4c0-15.2 4.4-26.7 13.2-34.6c8.9-7.8 20.7-11.8 35.2-11.8c14.1 0 25.2 4 33.4 12c8.3 8 12.5 20 12.5 35.9v6h-33.1v-5.8c0-6.1-1.3-10.7-4-13.6c-1.1-1.5-2.6-2.7-4.3-3.5s-3.5-1.2-5.4-1.1c-5.4 0-9.2 1.8-11.4 5.6c-2.3 5.2-3.3 10.8-3 16.4v65.5c0 13.7 4.8 20.6 14.4 20.8q6.75 0 10.2-4.8c2.5-4.1 3.7-8.8 3.5-13.6v-4.9h33.1v5.1c0 10.6-2.1 19.5-6.2 26.6c-4 6.9-9.9 12.5-17.1 16c-7.7 3.7-16.1 5.5-24.6 5.3c-14.2 0-25.5-3.9-33.8-11.6z" />
+</svg></g>
+    <text x="405" y="140" transform="scale(.1)" font-weight="bold">CSS3</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1777, 2)">
+        <svg width="56" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 20" role="img" aria-label="SQL">
+  <title>SQL</title>
+  
+  <rect width="56" height="20" fill="#4479A1" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"><title>MySQL</title><path d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z"/></svg></g>
+    <text x="370" y="140" transform="scale(.1)" font-weight="bold">SQL</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1843, 2)">
+        <svg width="64" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 20" role="img" aria-label="JSON">
+  <title>JSON</title>
+  
+  <rect width="64" height="20" fill="#000000" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"><title>JSON</title><path d="M12.043 23.968c.479-.004.953-.029 1.426-.094a11.805 11.805 0 003.146-.863 12.404 12.404 0 003.793-2.542 11.977 11.977 0 002.44-3.427 11.794 11.794 0 001.02-3.476c.149-1.16.135-2.346-.045-3.499a11.96 11.96 0 00-.793-2.788 11.197 11.197 0 00-.854-1.617c-1.168-1.837-2.861-3.314-4.81-4.3a12.835 12.835 0 00-2.172-.87h-.005c.119.063.24.132.345.201.12.074.239.146.351.225a8.93 8.93 0 011.559 1.33c1.063 1.145 1.797 2.548 2.218 4.041.284.982.434 1.998.495 3.017.044.743.044 1.491-.047 2.229-.149 1.27-.554 2.51-1.228 3.596a7.475 7.475 0 01-1.903 2.084c-1.244.928-2.877 1.482-4.436 1.114a3.916 3.916 0 01-.748-.258 4.692 4.692 0 01-.779-.45 6.08 6.08 0 01-1.244-1.105 6.507 6.507 0 01-1.049-1.747 7.366 7.366 0 01-.494-2.54c-.03-1.273.225-2.553.854-3.67a6.43 6.43 0 011.663-1.918c.225-.178.464-.333.704-.479l.016-.007a5.121 5.121 0 00-1.441-.12 4.963 4.963 0 00-1.228.24c-.359.12-.704.27-1.019.45a6.146 6.146 0 00-.733.494c-.211.18-.42.36-.615.555-1.123 1.153-1.768 2.682-2.022 4.256-.15.973-.15 1.96-.091 2.95.105 1.395.391 2.787.945 4.062a8.518 8.518 0 001.348 2.173 8.14 8.14 0 003.132 2.23 7.934 7.934 0 002.113.54c.074.015.149.015.209.015zm-2.934-.398a4.102 4.102 0 01-.45-.228 8.5 8.5 0 01-2.038-1.534c-1.094-1.137-1.827-2.566-2.247-4.08a15.184 15.184 0 01-.495-3.172 12.14 12.14 0 01.046-2.082c.135-1.257.495-2.501 1.124-3.58a6.889 6.889 0 011.783-2.053 6.23 6.23 0 011.633-.9 5.363 5.363 0 013.522-.045c.029 0 .029 0 .045.03.015.015.045.015.06.03.045.016.104.045.165.074.239.12.479.271.704.42a6.294 6.294 0 012.097 2.502c.42.914.615 1.934.631 2.938.014 1.079-.18 2.157-.645 3.146a6.42 6.42 0 01-2.638 2.832c.09.03.18.045.271.075.225.044.449.074.688.074 1.468.045 2.892-.66 3.94-1.647.195-.18.375-.375.54-.585.225-.27.435-.54.614-.823.239-.375.435-.75.614-1.154a8.112 8.112 0 00.509-1.664c.196-1.004.211-2.022.149-3.026-.135-2.022-.673-4.045-1.842-5.724a9.054 9.054 0 00-.555-.719 9.868 9.868 0 00-1.063-1.034 8.477 8.477 0 00-1.363-.915 9.927 9.927 0 00-1.692-.598l-.3-.06c-.209-.03-.42-.044-.634-.06a8.453 8.453 0 00-1.015.016c-.704.045-1.412.16-2.112.337C5.799 1.227 2.863 3.566 1.3 6.67A11.834 11.834 0 00.238 9.801a11.81 11.81 0 00-.104 3.775c.12 1.02.374 2.023.778 2.977.227.57.511 1.124.825 1.648 1.094 1.783 2.683 3.236 4.51 4.24.688.39 1.408.69 2.157.944.226.074.45.15.689.21z"/></svg></g>
+    <text x="410" y="140" transform="scale(.1)" font-weight="bold">JSON</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1917, 2)">
+        <svg width="64" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 20" role="img" aria-label="YAML">
+  <title>YAML</title>
+  
+  <rect width="64" height="20" fill="#CB171E" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"><title>YAML</title><path d="m0 .97 4.111 6.453v4.09h2.638v-4.09L11.053.969H8.214L5.58 5.125 2.965.969Zm12.093.024-4.47 10.544h2.114l.97-2.345h4.775l.804 2.345h2.26L14.255.994Zm1.133 2.225 1.463 3.87h-3.096zm3.06 9.475v10.29H24v-2.199h-5.454v-8.091zm-12.175.002v10.335h2.217v-7.129l2.32 4.792h1.746l2.4-4.96v7.295h2.127V12.696h-2.904L9.44 17.37l-2.455-4.674Z"/></svg></g>
+    <text x="410" y="140" transform="scale(.1)" font-weight="bold">YAML</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(1991, 2)">
+        <svg width="56" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 20" role="img" aria-label="XML">
+  <title>XML</title>
+  
+  <rect width="56" height="20" fill="#00608C" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4zm-4.1 1.8l1.9.4 2.2-9.6-1.9-.4-2.2 9.6z"/></svg></g>
+    <text x="370" y="140" transform="scale(.1)" font-weight="bold">XML</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(2057, 2)">
+        <svg width="99" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99 20" role="img" aria-label="Terraform">
+  <title>Terraform</title>
+  
+  <rect width="99" height="20" fill="#844FBA" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff"><title>Terraform</title><path d="M1.44 0v7.575l6.561 3.79V3.787zm21.12 4.227l-6.561 3.791v7.574l6.56-3.787zM8.72 4.23v7.575l6.561 3.787V8.018zm0 8.405v7.575L15.28 24v-7.578z"/></svg></g>
+    <text x="585" y="140" transform="scale(.1)" font-weight="bold">Terraform</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(2166, 2)">
+        <svg width="61" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 20" role="img" aria-label="Bash">
+  <title>Bash</title>
+  
+  <rect width="61" height="20" fill="#4EAA25" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GNU Bash</title><path fill="#ffffff" d="M21.038,4.9l-7.577-4.498C13.009,0.134,12.505,0,12,0c-0.505,0-1.009,0.134-1.462,0.403L2.961,4.9 C2.057,5.437,1.5,6.429,1.5,7.503v8.995c0,1.073,0.557,2.066,1.462,2.603l7.577,4.497C10.991,23.866,11.495,24,12,24 c0.505,0,1.009-0.134,1.461-0.402l7.577-4.497c0.904-0.537,1.462-1.529,1.462-2.603V7.503C22.5,6.429,21.943,5.437,21.038,4.9z M15.17,18.946l0.013,0.646c0.001,0.078-0.05,0.167-0.111,0.198l-0.383,0.22c-0.061,0.031-0.111-0.007-0.112-0.085L14.57,19.29 c-0.328,0.136-0.66,0.169-0.872,0.084c-0.04-0.016-0.057-0.075-0.041-0.142l0.139-0.584c0.011-0.046,0.036-0.092,0.069-0.121 c0.012-0.011,0.024-0.02,0.036-0.026c0.022-0.011,0.043-0.014,0.062-0.006c0.229,0.077,0.521,0.041,0.802-0.101 c0.357-0.181,0.596-0.545,0.592-0.907c-0.003-0.328-0.181-0.465-0.613-0.468c-0.55,0.001-1.064-0.107-1.072-0.917 c-0.007-0.667,0.34-1.361,0.889-1.8l-0.007-0.652c-0.001-0.08,0.048-0.168,0.111-0.2l0.37-0.236 c0.061-0.031,0.111,0.007,0.112,0.087l0.006,0.653c0.273-0.109,0.511-0.138,0.726-0.088c0.047,0.012,0.067,0.076,0.048,0.151 l-0.144,0.578c-0.011,0.044-0.036,0.088-0.065,0.116c-0.012,0.012-0.025,0.021-0.038,0.028c-0.019,0.01-0.038,0.013-0.057,0.009 c-0.098-0.022-0.332-0.073-0.699,0.113c-0.385,0.195-0.52,0.53-0.517,0.778c0.003,0.297,0.155,0.387,0.681,0.396 c0.7,0.012,1.003,0.318,1.01,1.023C16.105,17.747,15.736,18.491,15.17,18.946z M19.143,17.859c0,0.06-0.008,0.116-0.058,0.145 l-1.916,1.164c-0.05,0.029-0.09,0.004-0.09-0.056v-0.494c0-0.06,0.037-0.093,0.087-0.122l1.887-1.129 c0.05-0.029,0.09-0.004,0.09,0.056V17.859z M20.459,6.797l-7.168,4.427c-0.894,0.523-1.553,1.109-1.553,2.187v8.833 c0,0.645,0.26,1.063,0.66,1.184c-0.131,0.023-0.264,0.039-0.398,0.039c-0.42,0-0.833-0.114-1.197-0.33L3.226,18.64 c-0.741-0.44-1.201-1.261-1.201-2.142V7.503c0-0.881,0.46-1.702,1.201-2.142l7.577-4.498c0.363-0.216,0.777-0.33,1.197-0.33 c0.419,0,0.833,0.114,1.197,0.33l7.577,4.498c0.624,0.371,1.046,1.013,1.164,1.732C21.686,6.557,21.12,6.411,20.459,6.797z"/></svg></g>
+    <text x="395" y="140" transform="scale(.1)" font-weight="bold">Bash</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(2237, 2)">
+        <svg width="54" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 20" role="img" aria-label="Zsh">
+  <title>Zsh</title>
+  
+  <rect width="54" height="20" fill="#f15a24" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" role="img" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"><title>Zsh</title><path d="M11.415 5.038a.58.58 0 0 0-.543.197L.135 18.021a.58.58 0 0 0 .071.814.58.58 0 0 0 .815-.07L11.757 5.979a.58.58 0 0 0-.07-.815.6.6 0 0 0-.272-.126m-8.113.317a3.133 3.133 0 0 0-3.12 3.12 3.13 3.13 0 0 0 3.12 3.119A3.133 3.133 0 0 0 6.42 8.475a3.13 3.13 0 0 0-3.119-3.119m0 1.806a1.3 1.3 0 0 1 1.314 1.313 1.3 1.3 0 0 1-1.314 1.312A1.3 1.3 0 0 1 1.99 8.475a1.3 1.3 0 0 1 1.312-1.314m5.253 5.253a3.13 3.13 0 0 0-3.119 3.119 3.13 3.13 0 0 0 3.12 3.118 3.133 3.133 0 0 0 3.118-3.12 3.133 3.133 0 0 0-3.119-3.118m0 1.805a1.3 1.3 0 0 1 1.313 1.314c0 .735-.577 1.312-1.312 1.312a1.3 1.3 0 0 1-1.314-1.312 1.3 1.3 0 0 1 1.313-1.314m7.201 3.276a.58.58 0 0 0-.578.578.58.58 0 0 0 .578.578h7.666a.58.58 0 0 0 .579-.578.58.58 0 0 0-.579-.578Z"/></svg></g>
+    <text x="360" y="140" transform="scale(.1)" font-weight="bold">Zsh</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(2301, 2)">
+        <svg width="98" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 20" role="img" aria-label="PowerShell">
+  <title>PowerShell</title>
+  
+  <rect width="98" height="20" fill="#5391FE" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V6h16v12zM6 9.41L10.59 14 6 18.41 7.41 19.82 13.41 14 7.41 8.59 6 9.41zM14 17h4v2h-4z"/></svg></g>
+    <text x="580" y="140" transform="scale(.1)" font-weight="bold">PowerShell</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(2409, 2)">
+        <svg width="91" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 20" role="img" aria-label="Markdown">
+  <title>Markdown</title>
+  
+  <rect width="91" height="20" fill="#000000" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Markdown</title><path d="M22.27 19.385H1.73A1.73 1.73 0 010 17.655V6.345a1.73 1.73 0 011.73-1.73h20.54A1.73 1.73 0 0124 6.345v11.308a1.73 1.73 0 01-1.73 1.731zM5.769 15.923v-4.5l2.308 2.885 2.307-2.885v4.5h2.308V8.078h-2.308l-2.307 2.885-2.308-2.885H3.46v7.847zM21.232 12h-2.309V8.077h-2.307V12h-2.308l3.461 4.039z"/></svg></g>
+    <text x="545" y="140" transform="scale(.1)" font-weight="bold">Markdown</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(2510, 2)">
+        <svg width="39" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 20" role="img" aria-label="C">
+  <title>C</title>
+  
+  <rect width="39" height="20" fill="#A8B9CC" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>C</title><path d="M16.5921 9.1962s-.354-3.298-3.627-3.39c-3.2741-.09-4.9552 2.474-4.9552 6.14 0 3.6651 1.858 6.5972 5.0451 6.5972 3.184 0 3.5381-3.665 3.5381-3.665l6.1041.365s.36 3.31-2.196 5.836c-2.552 2.5241-5.6901 2.9371-7.8762 2.9201-2.19-.017-5.2261.034-8.1602-2.97-2.938-3.0101-3.436-5.9302-3.436-8.8002 0-2.8701.556-6.6702 4.047-9.5502C7.444.72 9.849 0 12.254 0c10.0422 0 10.7172 9.2602 10.7172 9.2602z"/></svg></g>
+    <text x="285" y="140" transform="scale(.1)" font-weight="bold">C</text>
+  </g>
+</svg>
+      </g>
+    
+      <g transform="translate(2559, 2)">
+        <svg width="53" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 20" role="img" aria-label="C++">
+  <title>C++</title>
+  
+  <rect width="53" height="20" fill="#00599C" rx="3" />
+  <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
+    <g transform="translate(6, 3)"><svg x="0" y="0" width="14" height="14" fill="white" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>C++</title><path d="M22.394 6c-.167-.29-.398-.543-.652-.69L12.926.22c-.509-.294-1.34-.294-1.848 0L2.26 5.31c-.508.293-.923 1.013-.923 1.6v10.18c0 .294.104.62.271.91.167.29.398.543.652.69l8.816 5.09c.508.293 1.34.293 1.848 0l8.816-5.09c.254-.147.485-.4.652-.69.167-.29.27-.616.27-.91V6.91c.003-.294-.1-.62-.268-.91zM12 19.11c-3.92 0-7.109-3.19-7.109-7.11 0-3.92 3.19-7.11 7.11-7.11a7.133 7.133 0 016.156 3.553l-3.076 1.78a3.567 3.567 0 00-3.08-1.78A3.56 3.56 0 008.444 12 3.56 3.56 0 0012 15.555a3.57 3.57 0 003.08-1.778l3.078 1.78A7.135 7.135 0 0112 19.11zm7.11-6.715h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79zm2.962 0h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79z"/></svg></g>
+    <text x="355" y="140" transform="scale(.1)" font-weight="bold">C++</text>
+  </g>
+</svg>
+      </g>
+    
+        </g>
+      </g>
+    </svg>
